@@ -1,6 +1,6 @@
 export default function Card() {
   return (
-    <div className="w-3/4 p-4 h-96 text-center bg-white border rounded-lg shadow-md sm:p-8 dark:bg-color_pink-900 bg-opacity-90 dark:border-gray-700">
+    <div className="w-[300px] p-4 h-fit text-center bg-white border rounded-lg shadow-md sm:p-8 dark:bg-color_pink-900 bg-opacity-90 dark:border-gray-700">
       <h5 className="mb-2 text-3xl font-bold text-gray-900 dark:text-white">
         Work fast from anywhere
       </h5>
