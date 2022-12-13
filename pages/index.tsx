@@ -11,7 +11,7 @@ export default function Home() {
         <Navbar />
         <HeroSection
           title="GPA Calculator"
-          description="Easy to use , GPA Calculator for strudents of SRM university, know where ypu stand 🙂"
+          description="Easy to use , GPA Calculator for students of SRM university, know where you stand 🙂"
         />
       </body>
     </html>

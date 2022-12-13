@@ -32,20 +32,6 @@ export default function HeroSection(props: heroSectionSchema) {
             <div className="flex flex-row w-full">
               <TextField />
             </div>
-            <div className="flex flex-row w-full justify-center my-4">
-              <button
-                type="button"
-                className="text-gray-900 my-4 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br  shadow-lg shadow-lime-500/50 dark:shadow-lg font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
-              >
-                Add Cource
-              </button>
-              <button
-                type="button"
-                className="text-gray-900 my-4 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br  shadow-lg shadow-lime-500/50 dark:shadow-lg  font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
-              >
-                Calculate
-              </button>
-            </div>
           </div>
 
           <div className="flex flex-row justify-center w-full my-8">
