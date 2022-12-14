@@ -17,20 +17,14 @@ export default function Card(props: listViewSchema) {
       <div className="p-4">
         {props.cources.map(function (cource, i) {
           return (
-            <motion.div
-              initial={{ opacity: 0, y: 25 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.75 }}
-            >
-              <List
-                key={cource.id}
-                id={cource.id}
-                title={cource.title}
-                credit={cource.credit}
-                grade={cource.grade}
-                onDelete={handleOnDelete}
-              />
-            </motion.div>
+            <List
+              key={cource.id}
+              id={cource.id}
+              title={cource.title}
+              credit={cource.credit}
+              grade={cource.grade}
+              onDelete={handleOnDelete}
+            />
           );
         })}
       </div>
