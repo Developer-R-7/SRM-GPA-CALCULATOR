@@ -8,7 +8,13 @@ export interface heroSectionSchema {
 }
 
 export interface listSchema {
-  cource_title: string;
+  id: string;
+  title: string;
   credit: string;
   grade: string;
+  onDelete?(event: any): any;
+}
+
+export interface listViewSchema {
+  cources: Array<listSchema>;
 }
