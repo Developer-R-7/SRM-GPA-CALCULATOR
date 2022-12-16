@@ -1,5 +1,6 @@
 export interface searchBarScehma {
   placeholder: string;
+  addToList(event: any, addToListData?: any): any;
 }
 
 export interface heroSectionSchema {

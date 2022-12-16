@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { searchBarScehma, suggestionListScehma } from "../shared/models/schema";
 import { all_cources } from "../shared/constants/data";
-import List from "./List";
 
 export default function SearchBar(props: searchBarScehma) {
   const [searchText, setSearchText] = useState("");
@@ -20,8 +19,30 @@ export default function SearchBar(props: searchBarScehma) {
       const searchCourceList = all_cources.filter((text) => {
         return text.cource_name.toLocaleLowerCase().startsWith(searchText);
       });
-      setSuggestionList(searchCourceList);
+      console.log(searchCourceList.length);
+      if (searchCourceList.length == 0) {
+        setSuggestionList([
+          { cource_name: "No result found , add manually cources below" },
+        ]);
+      } else {
+        setSuggestionList(searchCourceList.slice(0, 6));
+      }
     }
+  };
+
+  const handleOnClick = (event: any) => {
+    const cource_code = event.target.id;
+    const cource = all_cources.filter((cource) => {
+      return cource.cource_code === cource_code;
+    })[0];
+
+    const addToListData = {
+      title: cource.cource_name,
+      credit: cource.cource_credit,
+      grade: "O",
+    };
+
+    props.addToList(event, addToListData);
   };
 
   return (
@@ -68,15 +89,18 @@ export default function SearchBar(props: searchBarScehma) {
           }`}
         >
           <div className="text-sm font-medium rounded-b-lg text-gray-900 bg-white border border-gray-200 dark:bg-gray-700 dark:border-gray-600 dark:text-white">
-            {suggestionList.map(function (cource, i) {
+            {suggestionList.map(function (cource: suggestionListScehma, i) {
               return (
                 <button
                   type="button"
+                  onClick={handleOnClick}
                   key={cource.cource_code}
                   id={cource.cource_code}
                   className="py-2 px-4 w-full font-medium text-left border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white"
                 >
-                  {cource.cource_code + " - " + cource.cource_name}
+                  {cource.cource_code
+                    ? cource.cource_code + " - " + cource.cource_name
+                    : cource.cource_name}
                 </button>
               );
             })}

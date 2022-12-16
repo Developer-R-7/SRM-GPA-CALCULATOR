@@ -14,7 +14,6 @@ export default function HeroSection(props: heroSectionSchema) {
   });
 
   const handleAddFormChange = (event: any) => {
-    event.preventDefault();
     const fieldName = event.target.getAttribute("name");
     const fieldValue = event.target.value;
 
@@ -23,13 +22,12 @@ export default function HeroSection(props: heroSectionSchema) {
     setFormData(newFormData);
   };
 
-  const handleAddFormSubmit = (event: any) => {
-    event.preventDefault();
+  const handleAddFormSubmit = (event: any, data: any) => {
     const cource_record = {
       id: nanoid(),
-      title: addFormData.title,
-      credit: addFormData.credit,
-      grade: addFormData.grade,
+      title: addFormData.title || data.title,
+      credit: addFormData.credit || data.credit,
+      grade: addFormData.grade || data.grade,
     };
 
     const new_cource: any = [...cources, cource_record];
@@ -64,7 +62,10 @@ export default function HeroSection(props: heroSectionSchema) {
               transition={{ duration: 0.75, delay: 0.2 }}
               className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
             ></motion.p>
-            <SearchBar placeholder="Search and add cources..." />
+            <SearchBar
+              placeholder="Search and add cources..."
+              addToList={handleAddFormSubmit}
+            />
             <p className="text-2xl m-6 text-center text-white text-bold">OR</p>
             <div className="flex flex-row w-full">
               <form className="w-full" onSubmit={handleAddFormSubmit}>
