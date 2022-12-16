@@ -22,7 +22,7 @@ export default function HeroSection(props: heroSectionSchema) {
     setFormData(newFormData);
   };
 
-  const handleAddFormSubmit = (event: any, data: any) => {
+  const handleAddFormSubmit = (event: any, data?: any) => {
     const cource_record = {
       id: nanoid(),
       title: addFormData.title || data.title,
