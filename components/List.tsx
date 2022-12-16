@@ -1,11 +1,15 @@
 import { motion } from "framer-motion";
-import { listSchema } from "../shared/models/schema";
+import { useState } from "react";
+import { cardListSchema } from "../shared/models/schema";
 
-export default function List(props: listSchema) {
+export default function List(props: cardListSchema) {
+  const [remove, setRemove] = useState(false);
+
   return (
     <motion.div
-      initial={{ opacity: 0, y: 25 }}
-      animate={{ opacity: 1, y: 0 }}
+      key={props.id}
+      initial={{ opacity: remove ? 1 : 0, y: 25 }}
+      animate={{ opacity: remove ? 0 : 1, y: 0 }}
       transition={{ duration: 0.75 }}
     >
       <div className="mb-4">
@@ -25,10 +29,11 @@ export default function List(props: listSchema) {
             </div>
             <div className="h-fit relative min-h-full flex justify-end">
               <button
-                className="absolute float-right  rounded-full bg-red-600 text-center hover:bg-blue-500 text-white text-xs px-2 py-1 -right-2 -top-2 align-center cursor-pointer alert-del "
+                className="absolute z-0 float-right  rounded-full bg-red-600 text-center hover:bg-blue-500 text-white text-xs px-2 py-1 -right-2 -top-2 align-center cursor-pointer alert-del "
                 id={props.title}
                 onClick={(event) => {
                   props.onDelete(event);
+                  setRemove(true);
                 }}
               >
                 &times;

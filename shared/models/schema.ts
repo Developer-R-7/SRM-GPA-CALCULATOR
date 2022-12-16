@@ -19,7 +19,10 @@ export interface listSchema {
   title: string;
   credit: string;
   grade: string;
-  onDelete?(event: any): any;
+}
+
+export interface cardListSchema extends listSchema {
+  onDelete(event: any): any;
 }
 
 export interface suggestionListScehma {
@@ -30,7 +33,7 @@ export interface suggestionListScehma {
 
 export interface listViewSchema {
   cources: Array<listSchema>;
-  onDelete?(event: any): any;
+  onDelete(event: any): any;
 }
 
 export type ToastSchema = "success" | "error";
