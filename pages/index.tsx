@@ -1,12 +1,11 @@
-import Head from "next/head";
-import Image from "next/image";
 import HeroSection from "../components/HeroSection";
 import Navbar from "../components/NavBar";
-import styles from "../styles/Home.module.css";
+import Toast from "../components/Toast";
 
 export default function Home() {
   return (
     <div className="dark">
+      <Toast />
       <Navbar />
       <HeroSection
         title="GPA Calculator"

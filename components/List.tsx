@@ -14,13 +14,13 @@ export default function List(props: listSchema) {
           htmlFor=""
         >
           <div className="flex flex-row w-full h-full rounded-lg bg-gray-700">
-            <div className="flex w-8/12 justify-center text-sm  text-white pl-2  items-center  ">
+            <div className="flex w-6/12 justify-center text-sm  text-white pl-2 text-center items-center font-bold">
               {props.title}
             </div>
-            <div className="flex  w-2/12 justify-center text-sm text-white items-center font-bold">
+            <div className="flex  w-3/12 justify-center text-sm text-white items-center text-center font-bold">
               {props.credit}
             </div>
-            <div className="flex w-2/12 justify-center text-sm text-white items-center  font-bold">
+            <div className="flex w-3/12 justify-center text-sm text-white items-center text-center font-bold">
               {props.grade}
             </div>
             <div className="h-fit relative min-h-full flex justify-end">

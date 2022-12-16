@@ -10,6 +10,7 @@ import SearchBar from "./SearchBar";
 import { nanoid } from "nanoid";
 import Toast from "./Toast";
 import { toast } from "react-toastify";
+import Modal from "./Modal";
 
 export default function HeroSection(props: heroSectionSchema) {
   const notify = (message: string, status: ToastSchema) => {
@@ -76,7 +77,6 @@ export default function HeroSection(props: heroSectionSchema) {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.75 }}
     >
-      <Toast />;
       <section className="bg-white my-28 lg:bg-hero-bg lg:my-0 bg-[center_bottom_-5rem] bg-no-repeat  bg-cover scale-100 dark:bg-primary-900">
         <div className="grid max-w-screen-xl h-screen place-items-start px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2 lg:place-items-center">
           <div className="mx-auto place-self-center ">
