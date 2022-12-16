@@ -15,6 +15,12 @@ export interface listSchema {
   onDelete?(event: any): any;
 }
 
+export interface suggestionListScehma {
+  cource_code: string;
+  cource_name: string;
+  cource_credit: number;
+}
+
 export interface listViewSchema {
   cources: Array<listSchema>;
 }

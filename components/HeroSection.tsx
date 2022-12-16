@@ -1,10 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import {
-  heroSectionSchema,
-  listSchema,
-  listViewSchema,
-} from "../shared/models/schema";
+import { heroSectionSchema, listSchema } from "../shared/models/schema";
 import Card from "./Card";
 import SearchBar from "./SearchBar";
 import { nanoid } from "nanoid";
