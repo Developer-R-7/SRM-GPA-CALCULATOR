@@ -1,12 +1,23 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { heroSectionSchema, listSchema } from "../shared/models/schema";
+import {
+  heroSectionSchema,
+  listSchema,
+  ToastSchema,
+} from "../shared/models/schema";
 import Card from "./Card";
 import SearchBar from "./SearchBar";
 import { nanoid } from "nanoid";
+import Toast from "./Toast";
+import { toast } from "react-toastify";
 
 export default function HeroSection(props: heroSectionSchema) {
+  const notify = (message: string, status: ToastSchema) => {
+    status == "success" ? toast.success(message) : toast.error(message);
+  };
+
   const [cources, setCources] = useState(Array<listSchema>);
+
   const [addFormData, setFormData] = useState({
     title: "",
     credit: "",
@@ -23,20 +34,40 @@ export default function HeroSection(props: heroSectionSchema) {
   };
 
   const handleAddFormSubmit = (event: any, data?: any) => {
-    const cource_record = {
-      id: nanoid(),
-      title: addFormData.title || data.title,
-      credit: addFormData.credit || data.credit,
-      grade: addFormData.grade || data.grade,
-    };
+    event.preventDefault();
+    let cource_record: listSchema;
+    if (!data) {
+      cource_record = {
+        id: nanoid(),
+        title: addFormData.title || "",
+        credit: addFormData.credit || "",
+        grade: addFormData.grade || "",
+      };
+    } else {
+      cource_record = {
+        id: nanoid(),
+        title: data.title || "",
+        credit: data.credit || "",
+        grade: data.grade || "",
+      };
+    }
+    console.log(cource_record);
 
-    const new_cource: any = [...cources, cource_record];
-    setFormData({
-      title: "",
-      credit: "",
-      grade: "",
-    });
-    setCources(new_cource);
+    if (
+      cource_record.title !== "" &&
+      cource_record.credit !== "" &&
+      cource_record.grade !== ""
+    ) {
+      const new_cource: any = [...cources, cource_record];
+      setFormData({
+        title: "",
+        credit: "",
+        grade: "",
+      });
+      setCources(new_cource);
+    } else {
+      notify("Missing Value", "error");
+    }
   };
 
   return (
@@ -45,6 +76,7 @@ export default function HeroSection(props: heroSectionSchema) {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.75 }}
     >
+      <Toast />;
       <section className="bg-white my-28 lg:bg-hero-bg lg:my-0 bg-[center_bottom_-5rem] bg-no-repeat  bg-cover scale-100 dark:bg-primary-900">
         <div className="grid max-w-screen-xl h-screen place-items-start px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2 lg:place-items-center">
           <div className="mx-auto place-self-center ">
@@ -68,7 +100,7 @@ export default function HeroSection(props: heroSectionSchema) {
             />
             <p className="text-2xl m-6 text-center text-white text-bold">OR</p>
             <div className="flex flex-row w-full">
-              <form className="w-full" onSubmit={handleAddFormSubmit}>
+              <form className="w-full">
                 <div className="flex flex-wrap -mx-3 mb-2">
                   <div className="w-full md:w-1/3 px-3 mb-6 md:mb-0">
                     <label
@@ -85,7 +117,6 @@ export default function HeroSection(props: heroSectionSchema) {
                       placeholder="ADE"
                       value={addFormData.title}
                       onChange={handleAddFormChange}
-                      required
                     />
                   </div>
                   <div className="w-full md:w-1/3 px-3 mb-6 md:mb-0">
@@ -96,14 +127,14 @@ export default function HeroSection(props: heroSectionSchema) {
                       Credit
                     </label>
                     <input
-                      className="appearance-none block w-full bg-gray-900 text-white border border-gray-600 rounded py-3 px-4 leading-tight focus:outline-none  focus:border-gray-500"
+                      className="block w-full bg-gray-900 text-white border border-gray-600 rounded py-3 px-4 leading-tight focus:outline-none  focus:border-gray-500"
                       id="grid-zip"
                       type="number"
                       name="credit"
                       value={addFormData.credit}
                       placeholder="4"
                       onChange={handleAddFormChange}
-                      required
+                      max={10}
                     />
                   </div>
                   <div className="w-full md:w-1/3 px-3 mb-6 md:mb-0">
@@ -120,11 +151,8 @@ export default function HeroSection(props: heroSectionSchema) {
                         name="grade"
                         value={addFormData.grade}
                         onChange={handleAddFormChange}
-                        required
                       >
-                        <option selected disabled>
-                          Select Grade
-                        </option>
+                        <option>Select Grade</option>
                         <option>O</option>
                         <option>A+</option>
                         <option>A</option>
@@ -150,7 +178,7 @@ export default function HeroSection(props: heroSectionSchema) {
                 </div>
                 <div className="flex flex-row w-full justify-center my-4">
                   <button
-                    type="submit"
+                    onClick={handleAddFormSubmit}
                     className="text-gray-900 my-4 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br  shadow-lg shadow-lime-500/50 dark:shadow-lg font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                   >
                     Add Cource

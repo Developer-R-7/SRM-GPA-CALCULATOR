@@ -19,7 +19,6 @@ export default function SearchBar(props: searchBarScehma) {
       const searchCourceList = all_cources.filter((text) => {
         return text.cource_name.toLocaleLowerCase().startsWith(searchText);
       });
-      console.log(searchCourceList.length);
       if (searchCourceList.length == 0) {
         setSuggestionList([
           { cource_name: "No result found , add manually cources below" },
@@ -43,6 +42,8 @@ export default function SearchBar(props: searchBarScehma) {
     };
 
     props.addToList(event, addToListData);
+    setShowSuggestionDiv(false);
+    setSearchText("");
   };
 
   return (
@@ -96,6 +97,7 @@ export default function SearchBar(props: searchBarScehma) {
                   onClick={handleOnClick}
                   key={cource.cource_code}
                   id={cource.cource_code}
+                  disabled={cource.cource_code ? false : true}
                   className="py-2 px-4 w-full font-medium text-left border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white"
                 >
                   {cource.cource_code

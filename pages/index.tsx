@@ -6,14 +6,12 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <html>
-      <body className="dark">
-        <Navbar />
-        <HeroSection
-          title="GPA Calculator"
-          description="Easy to use , GPA Calculator for students of SRM university, know where you stand 🙂"
-        />
-      </body>
-    </html>
+    <div className="dark">
+      <Navbar />
+      <HeroSection
+        title="GPA Calculator"
+        description="Easy to use , GPA Calculator for students of SRM university, know where you stand 🙂"
+      />
+    </div>
   );
 }

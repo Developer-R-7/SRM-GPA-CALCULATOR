@@ -25,3 +25,5 @@ export interface suggestionListScehma {
 export interface listViewSchema {
   cources: Array<listSchema>;
 }
+
+export type ToastSchema = "success" | "error";
