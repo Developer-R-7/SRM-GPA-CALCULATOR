@@ -8,6 +8,12 @@ export interface heroSectionSchema {
   description: string;
 }
 
+export interface courceListItem {
+  item: { title: string; credit: string; grade: string };
+  handleCourceFieldChange(event: any): any;
+  handleAddCource(event: any): any;
+}
+
 export interface listSchema {
   id: string;
   title: string;
