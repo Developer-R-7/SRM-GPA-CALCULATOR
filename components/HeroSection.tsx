@@ -1,21 +1,13 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import {
-  heroSectionSchema,
-  listSchema,
-  ToastSchema,
-} from "../shared/models/schema";
+import { heroSectionSchema, listSchema } from "../shared/models/schema";
 import Card from "./Card";
 import SearchBar from "./SearchBar";
 import { nanoid } from "nanoid";
-import { toast } from "react-toastify";
 import TextField from "./TextField";
+import { notify } from "../shared/helpers/helper";
 
 export default function HeroSection(props: heroSectionSchema) {
-  const notify = (message: string, status: ToastSchema) => {
-    status == "success" ? toast.success(message) : toast.error(message);
-  };
-
   const [cources, setCources] = useState(Array<listSchema>);
 
   const [addFormData, setFormData] = useState({
