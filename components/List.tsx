@@ -26,7 +26,10 @@ export default function List(props: listSchema) {
             <div className="h-fit relative min-h-full flex justify-end">
               <button
                 className="absolute float-right  rounded-full bg-red-600 text-center hover:bg-blue-500 text-white text-xs px-2 py-1 -right-2 -top-2 align-center cursor-pointer alert-del "
-                id={props.id}
+                id={props.title}
+                onClick={(event) => {
+                  props.onDelete(event);
+                }}
               >
                 &times;
               </button>

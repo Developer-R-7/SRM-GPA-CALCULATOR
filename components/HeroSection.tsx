@@ -71,6 +71,16 @@ export default function HeroSection(props: heroSectionSchema) {
     }
   };
 
+  const handleDeleteForm = (event: any) => {
+    event.preventDefault();
+    const get_id = event.target.getAttribute("id");
+
+    const updated_cources = cources.filter((object) => {
+      return object.title !== get_id;
+    });
+    setCources(updated_cources);
+  };
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -195,7 +205,7 @@ export default function HeroSection(props: heroSectionSchema) {
           </div>
 
           <div className="flex flex-row justify-center w-full my-8">
-            <Card cources={cources} />
+            <Card cources={cources} onDelete={handleDeleteForm} />
           </div>
         </div>
       </section>

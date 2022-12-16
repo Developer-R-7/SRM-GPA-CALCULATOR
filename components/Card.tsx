@@ -42,7 +42,7 @@ export default function Card(props: listViewSchema) {
               title={cource.title}
               credit={cource.credit}
               grade={cource.grade}
-              onDelete={handleOnDelete}
+              onDelete={props.onDelete}
             />
           );
         })}

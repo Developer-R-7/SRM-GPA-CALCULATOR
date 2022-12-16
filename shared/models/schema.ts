@@ -24,6 +24,7 @@ export interface suggestionListScehma {
 
 export interface listViewSchema {
   cources: Array<listSchema>;
+  onDelete?(event: any): any;
 }
 
 export type ToastSchema = "success" | "error";
