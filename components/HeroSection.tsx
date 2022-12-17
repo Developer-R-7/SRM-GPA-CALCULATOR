@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { heroSectionSchema, listSchema } from "../shared/models/schema";
 import Card from "./Card";
-import { getCourceItem, notify } from "../shared/helpers/helper";
+import { calculateGPA, getCourceItem, notify } from "../shared/helpers/helper";
 import HeaderCard from "./HeaderCard";
 import ResultCard from "./ResultCard";
 
@@ -14,6 +14,8 @@ export default function HeroSection(props: heroSectionSchema) {
     credit: "",
     grade: "",
   });
+
+  const [GPA, setGPA] = useState(0.0);
 
   const handleCourceFieldChange = (event: any) => {
     const fieldName = event.target.getAttribute("name");
@@ -43,6 +45,7 @@ export default function HeroSection(props: heroSectionSchema) {
         grade: "",
       });
       setCources(new_cource);
+      setGPA(calculateGPA(new_cource));
     } else {
       notify("Missing Value", "error");
     }
@@ -56,6 +59,7 @@ export default function HeroSection(props: heroSectionSchema) {
       return object.title !== get_id;
     });
     setCources(updated_cources);
+    setGPA(calculateGPA(updated_cources));
   };
 
   const [viewGPA, setViewGPA] = useState(false);
@@ -85,9 +89,12 @@ export default function HeroSection(props: heroSectionSchema) {
             </>
           ) : (
             <>
-              <Card cources={cources} onDelete={handleDeleteCource} />
+              <motion.div>
+                <Card cources={cources} onDelete={handleDeleteCource} />
+              </motion.div>
+
               <ResultCard
-                gpa={3}
+                gpa={GPA}
                 viewGPA={viewGPA}
                 addFormData={addFormData}
                 handleAddCource={handleAddCource}

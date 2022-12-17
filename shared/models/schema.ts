@@ -15,6 +15,17 @@ export interface courceListItem {
   handleChangeView(event: any): any;
 }
 
+export type gradeSchema =
+  | "O"
+  | "A+"
+  | "A"
+  | "B+"
+  | "C"
+  | "P"
+  | "F"
+  | "Ab"
+  | "I";
+
 export interface listSchema {
   id: string;
   title: string;
@@ -60,4 +71,10 @@ export interface resultCardScehma {
   handleChangeView(event: any): any;
   gpa: number;
   addFormData: { title: string; credit: string; grade: string };
+}
+
+export interface ProgressProviderSchema {
+  valueStart: number;
+  valueEnd: number;
+  children: any;
 }
