@@ -3,7 +3,7 @@ import { useState } from "react";
 import { heroSectionSchema, listSchema } from "../shared/models/schema";
 import Card from "./Card";
 import { nanoid } from "nanoid";
-import { notify } from "../shared/helpers/helper";
+import { getCourceItem, notify } from "../shared/helpers/helper";
 import HeaderCard from "./HeaderCard";
 
 export default function HeroSection(props: heroSectionSchema) {
@@ -26,30 +26,17 @@ export default function HeroSection(props: heroSectionSchema) {
 
   const handleAddCource = (event: any, data?: any) => {
     event.preventDefault();
-    let cource_record: listSchema;
-    if (!data) {
-      cource_record = {
-        id: nanoid(),
-        title: addFormData.title || "",
-        credit: addFormData.credit || "",
-        grade: addFormData.grade || "",
-      };
-    } else {
-      cource_record = {
-        id: nanoid(),
-        title: data.title || "",
-        credit: data.credit || "",
-        grade: data.grade || "",
-      };
-    }
-    console.log(cource_record);
+
+    const get_cource = getCourceItem(data, addFormData);
+
+    // In Future check for duplicate item in list
 
     if (
-      cource_record.title !== "" &&
-      cource_record.credit !== "" &&
-      cource_record.grade !== ""
+      get_cource.title !== "" &&
+      get_cource.credit !== "" &&
+      get_cource.grade !== ""
     ) {
-      const new_cource: any = [...cources, cource_record];
+      const new_cource: any = [...cources, get_cource];
       setFormData({
         title: "",
         credit: "",
@@ -64,7 +51,7 @@ export default function HeroSection(props: heroSectionSchema) {
   const handleDeleteCource = (event: any) => {
     event.preventDefault();
     const get_id = event.target.getAttribute("id");
-
+    // delete only first listItem
     const updated_cources = cources.filter((object) => {
       return object.title !== get_id;
     });
