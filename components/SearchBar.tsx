@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { searchBarScehma, suggestionListScehma } from "../shared/models/schema";
 import { all_cources } from "../shared/constants/data";
+import { motion } from "framer-motion";
 
 export default function SearchBar(props: searchBarScehma) {
   const [searchText, setSearchText] = useState("");
@@ -47,7 +48,11 @@ export default function SearchBar(props: searchBarScehma) {
   };
 
   return (
-    <form>
+    <motion.form
+      initial={{ opacity: 0, y: 25 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.75 }}
+    >
       <label
         htmlFor="default-search"
         className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
@@ -109,6 +114,6 @@ export default function SearchBar(props: searchBarScehma) {
           </div>
         </div>
       </div>
-    </form>
+    </motion.form>
   );
 }

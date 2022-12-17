@@ -20,7 +20,14 @@ export default function HeaderCard(props: headerCardSchema) {
         addToList={props.handleAddCource}
       />
 
-      <p className="text-2xl m-6 text-center text-white text-bold">OR</p>
+      <motion.p
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.9, delay: 0.4 }}
+        className="text-2xl m-6 text-center text-white text-bold"
+      >
+        OR
+      </motion.p>
 
       <TextField
         item={props.addFormData}
