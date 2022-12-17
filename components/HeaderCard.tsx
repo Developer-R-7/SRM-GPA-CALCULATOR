@@ -5,7 +5,7 @@ import TextField from "./TextField";
 
 export default function HeaderCard(props: headerCardSchema) {
   return (
-    <div className="mx-auto place-self-center ">
+    <div className={`mx-auto place-self-center ${props.hide ? "hidden" : ""}`}>
       <motion.h1
         initial={{ opacity: 0, y: 35 }}
         animate={{ opacity: 1, y: 0 }}
@@ -26,6 +26,7 @@ export default function HeaderCard(props: headerCardSchema) {
         item={props.addFormData}
         handleCourceFieldChange={props.handleCourceFieldChange}
         handleAddCource={props.handleAddCource}
+        handleChangeView={props.handleChangeView}
       />
     </div>
   );

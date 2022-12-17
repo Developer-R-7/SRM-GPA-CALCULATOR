@@ -5,6 +5,8 @@ import Card from "./Card";
 import { nanoid } from "nanoid";
 import { getCourceItem, notify } from "../shared/helpers/helper";
 import HeaderCard from "./HeaderCard";
+import ProgressBar from "./RoundProgressBar";
+import { render } from "react-dom";
 
 export default function HeroSection(props: heroSectionSchema) {
   const [cources, setCources] = useState(Array<listSchema>);
@@ -58,6 +60,11 @@ export default function HeroSection(props: heroSectionSchema) {
     setCources(updated_cources);
   };
 
+  const [viewGPA, setViewGPA] = useState(false);
+  const handleChangeView = (event: any) => {
+    setViewGPA(true);
+  };
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -66,14 +73,24 @@ export default function HeroSection(props: heroSectionSchema) {
     >
       <section className="bg-white my-28 lg:bg-hero-bg lg:my-0 bg-[center_bottom_-5rem] bg-no-repeat  bg-cover scale-100 dark:bg-primary-900">
         <div className="grid max-w-screen-xl h-screen place-items-start px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2 lg:place-items-center">
-          <HeaderCard
-            title={props.title}
-            handleAddCource={handleAddCource}
-            addFormData={addFormData}
-            handleCourceFieldChange={handleCourceFieldChange}
-          />
-
-          <Card cources={cources} onDelete={handleDeleteCource} />
+          {!viewGPA ? (
+            <>
+              <HeaderCard
+                hide={viewGPA}
+                title={props.title}
+                handleAddCource={handleAddCource}
+                addFormData={addFormData}
+                handleCourceFieldChange={handleCourceFieldChange}
+                handleChangeView={handleChangeView}
+              />
+              <Card cources={cources} onDelete={handleDeleteCource} />
+            </>
+          ) : (
+            <>
+              <Card cources={cources} onDelete={handleDeleteCource} />
+              <ProgressBar gpa={3} viewGPA={viewGPA} />
+            </>
+          )}
         </div>
       </section>
     </motion.div>

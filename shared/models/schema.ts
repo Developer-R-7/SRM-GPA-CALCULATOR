@@ -12,6 +12,7 @@ export interface courceListItem {
   item: { title: string; credit: string; grade: string };
   handleCourceFieldChange(event: any): any;
   handleAddCource(event: any): any;
+  handleChangeView(event: any): any;
 }
 
 export interface listSchema {
@@ -38,9 +39,16 @@ export interface listViewSchema {
 
 export interface headerCardSchema {
   title: string;
+  hide: boolean;
   handleAddCource(event: any): any;
   addFormData: { title: string; credit: string; grade: string };
   handleCourceFieldChange(event: any): any;
+  handleChangeView(event: any): any;
 }
 
 export type ToastSchema = "success" | "error";
+
+export interface progressBarScehma {
+  viewGPA: boolean;
+  gpa: number;
+}
