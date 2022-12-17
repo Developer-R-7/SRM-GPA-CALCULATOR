@@ -2,11 +2,9 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { heroSectionSchema, listSchema } from "../shared/models/schema";
 import Card from "./Card";
-import { nanoid } from "nanoid";
 import { getCourceItem, notify } from "../shared/helpers/helper";
 import HeaderCard from "./HeaderCard";
-import ProgressBar from "./RoundProgressBar";
-import { render } from "react-dom";
+import ResultCard from "./ResultCard";
 
 export default function HeroSection(props: heroSectionSchema) {
   const [cources, setCources] = useState(Array<listSchema>);
@@ -88,7 +86,14 @@ export default function HeroSection(props: heroSectionSchema) {
           ) : (
             <>
               <Card cources={cources} onDelete={handleDeleteCource} />
-              <ProgressBar gpa={3} viewGPA={viewGPA} />
+              <ResultCard
+                gpa={3}
+                viewGPA={viewGPA}
+                addFormData={addFormData}
+                handleAddCource={handleAddCource}
+                handleChangeView={handleChangeView}
+                handleCourceFieldChange={handleCourceFieldChange}
+              />
             </>
           )}
         </div>

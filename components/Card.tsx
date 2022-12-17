@@ -3,7 +3,7 @@ import List from "./List";
 
 export default function Card(props: listViewSchema) {
   return (
-    <div className="flex flex-row justify-center w-full my-8">
+    <div className="flex mx-auto flex-row justify-center w-full my-8">
       <div className="relative rounded-t-lg">
         <div className="w-full ">
           <div className="">

@@ -6,7 +6,7 @@ import { progressBarScehma } from "../shared/models/schema";
 
 export default function ProgressBar(props: progressBarScehma) {
   return (
-    <div>
+    <div className="flex mx-auto flex-row justify-center w-full">
       <motion.div
         className={`w-[200px] h-[200px] ${props.viewGPA ? "" : "hidden"}`}
       >

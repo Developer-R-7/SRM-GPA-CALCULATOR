@@ -52,3 +52,12 @@ export interface progressBarScehma {
   viewGPA: boolean;
   gpa: number;
 }
+
+export interface resultCardScehma {
+  viewGPA: boolean;
+  handleCourceFieldChange(event: any): any;
+  handleAddCource(event: any): any;
+  handleChangeView(event: any): any;
+  gpa: number;
+  addFormData: { title: string; credit: string; grade: string };
+}
