@@ -3,41 +3,43 @@ import List from "./List";
 
 export default function Card(props: listViewSchema) {
   return (
-    <div className="relative rounded-t-lg">
-      <div className="w-full ">
-        <div className="">
-          <label
-            className="flex items-center h-16 w-auto bg-color_list-900"
-            htmlFor=""
-          >
-            <div className="flex flex-row w-full h-full rounded-t-lg bg-[#FB2576]">
-              <div className="flex w-6/12 justify-center text-sm  text-white pl-2  items-center font-bold  ">
-                COURCE NAME
+    <div className="flex flex-row justify-center w-full my-8">
+      <div className="relative rounded-t-lg">
+        <div className="w-full ">
+          <div className="">
+            <label
+              className="flex items-center h-16 w-auto bg-color_list-900"
+              htmlFor=""
+            >
+              <div className="flex flex-row w-full h-full rounded-t-lg bg-[#FB2576]">
+                <div className="flex w-6/12 justify-center text-sm  text-white pl-2  items-center font-bold  ">
+                  COURCE NAME
+                </div>
+                <div className="flex  w-3/12 justify-center text-sm text-white items-center font-bold">
+                  CREDITS
+                </div>
+                <div className="flex w-3/12 justify-center text-sm text-white items-center  font-bold">
+                  GRADE
+                </div>
               </div>
-              <div className="flex  w-3/12 justify-center text-sm text-white items-center font-bold">
-                CREDITS
-              </div>
-              <div className="flex w-3/12 justify-center text-sm text-white items-center  font-bold">
-                GRADE
-              </div>
-            </div>
-          </label>
+            </label>
+          </div>
         </div>
-      </div>
-      <div className="w-[450px] h-[400px]  border-black z-0 bg-white overflow-auto rounded-b-lg shadow-md  dark:bg-color_pink-900 bg-opacity-90 dark:border-black-900">
-        <div className="mt-4 p-4">
-          {props.cources.map(function (cource, i) {
-            return (
-              <List
-                key={cource.id}
-                id={cource.id}
-                title={cource.title}
-                credit={cource.credit}
-                grade={cource.grade}
-                onDelete={props.onDelete}
-              />
-            );
-          })}
+        <div className="w-[450px] h-[400px]  border-black z-0 bg-white overflow-auto rounded-b-lg shadow-md  dark:bg-color_pink-900 bg-opacity-90 dark:border-black-900">
+          <div className="mt-4 p-4">
+            {props.cources.map(function (cource, i) {
+              return (
+                <List
+                  key={cource.id}
+                  id={cource.id}
+                  title={cource.title}
+                  credit={cource.credit}
+                  grade={cource.grade}
+                  onDelete={props.onDelete}
+                />
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>

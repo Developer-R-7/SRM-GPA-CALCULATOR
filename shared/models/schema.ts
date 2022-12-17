@@ -36,4 +36,11 @@ export interface listViewSchema {
   onDelete(event: any): any;
 }
 
+export interface headerCardSchema {
+  title: string;
+  handleAddCource(event: any): any;
+  addFormData: { title: string; credit: string; grade: string };
+  handleCourceFieldChange(event: any): any;
+}
+
 export type ToastSchema = "success" | "error";
