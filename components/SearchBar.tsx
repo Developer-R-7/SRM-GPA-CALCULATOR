@@ -48,11 +48,7 @@ export default function SearchBar(props: searchBarScehma) {
   };
 
   return (
-    <motion.form
-      initial={{ opacity: 0, y: 25 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.75 }}
-    >
+    <form>
       <label
         htmlFor="default-search"
         className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
@@ -114,6 +110,6 @@ export default function SearchBar(props: searchBarScehma) {
           </div>
         </div>
       </div>
-    </motion.form>
+    </form>
   );
 }

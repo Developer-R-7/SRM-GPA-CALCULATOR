@@ -4,12 +4,7 @@ import { courceListItem } from "../shared/models/schema";
 export default function TextField(props: courceListItem) {
   return (
     <div className="flex flex-row w-full">
-      <motion.form
-        initial={{ opacity: 0, y: 25 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.75 }}
-        className="w-full"
-      >
+      <form>
         <div className="flex flex-wrap -mx-3 mb-2">
           <div className="w-full md:w-1/3 px-3 mb-6 md:mb-0">
             <label
@@ -110,7 +105,7 @@ export default function TextField(props: courceListItem) {
             Calculate
           </button>
         </div>
-      </motion.form>
+      </form>
     </div>
   );
 }

@@ -89,9 +89,7 @@ export default function HeroSection(props: heroSectionSchema) {
             </>
           ) : (
             <>
-              <motion.div>
-                <Card cources={cources} onDelete={handleDeleteCource} />
-              </motion.div>
+              <Card cources={cources} onDelete={handleDeleteCource} />
 
               <ResultCard
                 gpa={GPA}
