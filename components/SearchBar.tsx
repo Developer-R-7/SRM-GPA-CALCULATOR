@@ -115,7 +115,7 @@ export default function SearchBar(props: searchBarScehma) {
         <div className="my-auto mx-6 w-1/4">
           <div className="relative">
             <select
-              className="appearance-none p-4 h-[54px] block w-full bg-gray-900 text-white  border border-gray-600 rounded py-3 px-4 leading-tight focus:outline-none  focus:border-gray-500"
+              className="appearance-none p-4 h-[54px] block w-full text-sm bg-gray-900 text-white  border border-gray-600 rounded py-3 px-4 leading-tight focus:outline-none  focus:border-gray-500"
               id="grid-state"
               name="grade"
               value={props.addFormData.grade}
