@@ -68,11 +68,7 @@ export default function HeroSection(props: heroSectionSchema) {
   };
 
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.75 }}
-    >
+    <div>
       <section className="bg-white my-28 lg:bg-hero-bg lg:my-0 bg-[center_bottom_-5rem] bg-no-repeat  bg-cover scale-100 dark:bg-primary-900">
         <div className="grid max-w-screen-xl h-screen place-items-start px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2 lg:place-items-center">
           {viewGPA ? (
@@ -94,14 +90,20 @@ export default function HeroSection(props: heroSectionSchema) {
             </>
           ) : (
             <>
-              <HeaderCard
-                hide={viewGPA}
-                title={props.title}
-                handleAddCource={handleAddCource}
-                addFormData={addFormData}
-                handleCourceFieldChange={handleCourceFieldChange}
-                handleChangeView={handleChangeView}
-              />
+              <motion.div
+                initial={{ y: 25, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.7 }}
+              >
+                <HeaderCard
+                  hide={viewGPA}
+                  title={props.title}
+                  handleAddCource={handleAddCource}
+                  addFormData={addFormData}
+                  handleCourceFieldChange={handleCourceFieldChange}
+                  handleChangeView={handleChangeView}
+                />
+              </motion.div>
               <Card
                 cources={cources}
                 onDelete={handleDeleteCource}
@@ -111,6 +113,6 @@ export default function HeroSection(props: heroSectionSchema) {
           )}
         </div>
       </section>
-    </motion.div>
+    </div>
   );
 }

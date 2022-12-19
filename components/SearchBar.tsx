@@ -49,7 +49,7 @@ export default function SearchBar(props: searchBarScehma) {
 
   return (
     <form>
-      <div className="flex flex-row w-full justify-center justify-items-center">
+      <div className="flex flex-row w-full justify-center justify-items-center mt-10">
         <div className="w-9/12">
           <label
             htmlFor="default-search"
