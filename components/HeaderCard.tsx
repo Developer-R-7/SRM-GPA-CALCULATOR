@@ -18,6 +18,8 @@ export default function HeaderCard(props: headerCardSchema) {
       <SearchBar
         placeholder="Search and add cources..."
         addToList={props.handleAddCource}
+        addFormData={props.addFormData}
+        handleCourceFieldChange={props.handleCourceFieldChange}
       />
 
       <p className="text-2xl m-6 text-center text-white text-bold">OR</p>
@@ -27,6 +29,7 @@ export default function HeaderCard(props: headerCardSchema) {
         handleCourceFieldChange={props.handleCourceFieldChange}
         handleAddCource={props.handleAddCource}
         handleChangeView={props.handleChangeView}
+        viewGPA={props.hide}
       />
     </div>
   );

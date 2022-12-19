@@ -62,7 +62,7 @@ export default function TextField(props: courceListItem) {
                   props.handleCourceFieldChange(event);
                 }}
               >
-                <option>Select Grade</option>
+                <option>Your grade</option>
                 <option>O</option>
                 <option>A+</option>
                 <option>A</option>

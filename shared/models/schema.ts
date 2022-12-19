@@ -1,6 +1,8 @@
 export interface searchBarScehma {
   placeholder: string;
   addToList(event: any, addToListData?: any): any;
+  addFormData: { title: string; credit: string; grade: string };
+  handleCourceFieldChange(event: any): any;
 }
 
 export interface heroSectionSchema {
@@ -13,6 +15,7 @@ export interface courceListItem {
   handleCourceFieldChange(event: any): any;
   handleAddCource(event: any): any;
   handleChangeView(event: any): any;
+  viewGPA: boolean;
 }
 
 export type gradeSchema =
