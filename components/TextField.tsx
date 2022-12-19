@@ -102,7 +102,7 @@ export default function TextField(props: courceListItem) {
             }}
             className="text-white my-4 bg-[#54B435] font-medium rounded text-lg px-5 py-2.5 text-center mr-2 mb-2"
           >
-            {props.viewGPA ? "Edit cources" : "Calculate"}
+            {props.viewGPA ? "Go back to edit cources" : "Calculate"}
           </button>
         </div>
       </form>
