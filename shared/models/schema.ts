@@ -14,7 +14,7 @@ export interface courceListItem {
   item: { title: string; credit: string; grade: string };
   handleCourceFieldChange(event: any): any;
   handleAddCource(event: any): any;
-  handleChangeView(event: any): any;
+  handleChangeView(event: any, value: boolean): any;
   viewGPA: boolean;
 }
 
@@ -57,7 +57,7 @@ export interface headerCardSchema {
   handleAddCource(event: any): any;
   addFormData: { title: string; credit: string; grade: string };
   handleCourceFieldChange(event: any): any;
-  handleChangeView(event: any): any;
+  handleChangeView(event: any, value: boolean): any;
 }
 
 export type ToastSchema = "success" | "error";
@@ -71,7 +71,7 @@ export interface resultCardScehma {
   viewGPA: boolean;
   handleCourceFieldChange(event: any): any;
   handleAddCource(event: any): any;
-  handleChangeView(event: any): any;
+  handleChangeView(event: any, value: boolean): any;
   gpa: number;
   addFormData: { title: string; credit: string; grade: string };
 }
