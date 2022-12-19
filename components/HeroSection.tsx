@@ -5,6 +5,7 @@ import Card from "./Card";
 import { calculateGPA, getCourceItem, notify } from "../shared/helpers/helper";
 import HeaderCard from "./HeaderCard";
 import ResultCard from "./ResultCard";
+import Toast from "./Toast";
 
 export default function HeroSection(props: heroSectionSchema) {
   const [cources, setCources] = useState(Array<listSchema>);
@@ -69,6 +70,7 @@ export default function HeroSection(props: heroSectionSchema) {
 
   return (
     <div>
+      <Toast />
       <section className="bg-white my-28 lg:bg-hero-bg lg:my-0 bg-[center_bottom_-5rem] bg-no-repeat  bg-cover scale-100 dark:bg-primary-900">
         <div className="grid max-w-screen-xl h-screen place-items-start px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2 lg:place-items-center">
           {viewGPA ? (

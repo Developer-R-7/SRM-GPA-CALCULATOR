@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { searchBarScehma, suggestionListScehma } from "../shared/models/schema";
 import { all_cources } from "../shared/constants/data";
-import { motion } from "framer-motion";
 
 export default function SearchBar(props: searchBarScehma) {
   const [searchText, setSearchText] = useState("");
@@ -32,13 +31,13 @@ export default function SearchBar(props: searchBarScehma) {
 
   const handleOnClick = (event: any) => {
     const cource_code = event.target.id;
-    const cource = all_cources.filter((cource) => {
-      return cource.cource_code === cource_code;
+    const course = all_cources.filter((course) => {
+      return course.cource_code === cource_code;
     })[0];
 
     const addToListData = {
-      title: cource.cource_name,
-      credit: cource.cource_credit,
+      title: course.cource_name,
+      credit: course.cource_credit,
       grade: props.addFormData.grade,
     };
 
@@ -93,19 +92,19 @@ export default function SearchBar(props: searchBarScehma) {
               }`}
             >
               <div className="text-sm font-medium rounded-b-lg text-gray-900 bg-white border border-gray-200 dark:bg-gray-700 dark:border-gray-600 dark:text-white">
-                {suggestionList.map(function (cource: suggestionListScehma, i) {
+                {suggestionList.map(function (course: suggestionListScehma, i) {
                   return (
                     <button
                       type="button"
                       onClick={handleOnClick}
-                      key={cource.cource_code}
-                      id={cource.cource_code}
-                      disabled={cource.cource_code ? false : true}
+                      key={course.cource_code}
+                      id={course.cource_code}
+                      disabled={course.cource_code ? false : true}
                       className="py-2 px-4 w-full font-medium text-left border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white"
                     >
-                      {cource.cource_code
-                        ? cource.cource_code + " - " + cource.cource_name
-                        : cource.cource_name}
+                      {course.cource_code
+                        ? course.cource_code + " - " + course.cource_name
+                        : course.cource_name}
                     </button>
                   );
                 })}

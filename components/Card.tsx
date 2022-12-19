@@ -33,14 +33,14 @@ export default function Card(props: listViewSchema) {
         </div>
         <div className="w-[450px] h-[400px]  border-black z-0 bg-white overflow-auto rounded-b-lg shadow-md  dark:bg-color_pink-900 bg-opacity-90 dark:border-black-900">
           <div className="mt-4 p-4">
-            {props.cources.map(function (cource, i) {
+            {props.cources.map(function (course, i) {
               return (
                 <List
-                  key={cource.id}
-                  id={cource.id}
-                  title={cource.title}
-                  credit={cource.credit}
-                  grade={cource.grade}
+                  key={course.id}
+                  id={course.id}
+                  title={course.title}
+                  credit={course.credit}
+                  grade={course.grade}
                   onDelete={props.onDelete}
                 />
               );

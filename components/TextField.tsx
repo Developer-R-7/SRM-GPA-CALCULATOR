@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { courceListItem } from "../shared/models/schema";
 
 export default function TextField(props: courceListItem) {
@@ -11,7 +10,7 @@ export default function TextField(props: courceListItem) {
               className="block uppercase tracking-wide text-white text-xs font-bold mb-2"
               htmlFor="grid-city"
             >
-              Cource name
+              course name
             </label>
             <input
               className="appearance-none block w-full bg-gray-900 text-white border border-gray-600 rounded py-3 px-4 leading-tight focus:outline-none  focus:border-gray-500"
@@ -93,7 +92,7 @@ export default function TextField(props: courceListItem) {
             }}
             className="text-white my-4 bg-[#FF7000] font-medium rounded text-lg px-5 py-2.5 text-center mr-2 mb-2"
           >
-            Add cource
+            Add course
           </button>
           <button
             type="button"
