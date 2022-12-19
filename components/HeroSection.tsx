@@ -77,7 +77,11 @@ export default function HeroSection(props: heroSectionSchema) {
         <div className="grid max-w-screen-xl h-screen place-items-start px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2 lg:place-items-center">
           {viewGPA ? (
             <>
-              <Card cources={cources} onDelete={handleDeleteCource} />
+              <Card
+                cources={cources}
+                onDelete={handleDeleteCource}
+                viewGPA={viewGPA}
+              />
 
               <ResultCard
                 gpa={GPA}
@@ -98,7 +102,11 @@ export default function HeroSection(props: heroSectionSchema) {
                 handleCourceFieldChange={handleCourceFieldChange}
                 handleChangeView={handleChangeView}
               />
-              <Card cources={cources} onDelete={handleDeleteCource} />
+              <Card
+                cources={cources}
+                onDelete={handleDeleteCource}
+                viewGPA={viewGPA}
+              />
             </>
           )}
         </div>

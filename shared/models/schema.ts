@@ -49,6 +49,7 @@ export interface suggestionListScehma {
 export interface listViewSchema {
   cources: Array<listSchema>;
   onDelete(event: any): any;
+  viewGPA: boolean;
 }
 
 export interface headerCardSchema {

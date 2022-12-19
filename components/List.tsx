@@ -10,7 +10,7 @@ export default function List(props: cardListSchema) {
       key={props.id}
       initial={{ opacity: remove ? 1 : 0, y: 25 }}
       animate={{ opacity: remove ? 0 : 1, y: 0 }}
-      transition={{ duration: 0.75 }}
+      transition={{ duration: 0.75, delay: 0.4 }}
     >
       <div className="mb-4">
         <label

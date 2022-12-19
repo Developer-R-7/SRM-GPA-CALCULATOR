@@ -1,9 +1,15 @@
+import { motion } from "framer-motion";
 import { listViewSchema } from "../shared/models/schema";
 import List from "./List";
 
 export default function Card(props: listViewSchema) {
   return (
-    <div className="flex mx-auto flex-row justify-center w-full my-8">
+    <motion.div
+      initial={{ opacity: 0, scale: 0.9 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.7 }}
+      className="flex mx-auto flex-row justify-center w-full my-8"
+    >
       <div className="relative rounded-t-lg">
         <div className="w-full ">
           <div className="">
@@ -42,6 +48,6 @@ export default function Card(props: listViewSchema) {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
