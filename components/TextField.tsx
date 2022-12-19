@@ -1,6 +1,6 @@
-import { courceListItem } from "../shared/models/schema";
+import { courseListItem } from "../shared/models/schema";
 
-export default function TextField(props: courceListItem) {
+export default function TextField(props: courseListItem) {
   return (
     <div className="flex flex-row w-full">
       <form>
@@ -20,7 +20,7 @@ export default function TextField(props: courceListItem) {
               placeholder="ADE"
               value={props.item.title}
               onChange={(event) => {
-                props.handleCourceFieldChange(event);
+                props.handleCourseFieldChange(event);
               }}
             />
           </div>
@@ -39,7 +39,7 @@ export default function TextField(props: courceListItem) {
               value={props.item.credit}
               placeholder="4"
               onChange={(event) => {
-                props.handleCourceFieldChange(event);
+                props.handleCourseFieldChange(event);
               }}
               max={10}
             />
@@ -58,7 +58,7 @@ export default function TextField(props: courceListItem) {
                 name="grade"
                 value={props.item.grade}
                 onChange={(event: any) => {
-                  props.handleCourceFieldChange(event);
+                  props.handleCourseFieldChange(event);
                 }}
               >
                 <option>Your grade</option>
@@ -88,7 +88,7 @@ export default function TextField(props: courceListItem) {
         <div className="flex flex-row w-full justify-center my-4">
           <button
             onClick={(event) => {
-              props.handleAddCource(event);
+              props.handleAddCourse(event);
             }}
             className="text-white my-4 bg-[#FF7000] font-medium rounded text-lg px-5 py-2.5 text-center mr-2 mb-2"
           >
@@ -101,7 +101,7 @@ export default function TextField(props: courceListItem) {
             }}
             className="text-white my-4 bg-[#54B435] font-medium rounded text-lg px-5 py-2.5 text-center mr-2 mb-2"
           >
-            {props.viewGPA ? "Go back to edit cources" : "Calculate"}
+            {props.viewGPA ? "Go back to edit courses" : "Calculate"}
           </button>
         </div>
       </form>

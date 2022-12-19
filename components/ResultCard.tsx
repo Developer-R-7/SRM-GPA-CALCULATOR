@@ -21,8 +21,8 @@ export default function ResultCard(props: resultCardScehma) {
         <div className="mt-16">
           <TextField
             item={props.addFormData}
-            handleCourceFieldChange={props.handleCourceFieldChange}
-            handleAddCource={props.handleAddCource}
+            handleCourseFieldChange={props.handleCourseFieldChange}
+            handleAddCourse={props.handleAddCourse}
             handleChangeView={props.handleChangeView}
             viewGPA={props.viewGPA}
           />

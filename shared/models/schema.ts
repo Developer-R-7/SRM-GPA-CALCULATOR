@@ -2,7 +2,7 @@ export interface searchBarScehma {
   placeholder: string;
   addToList(event: any, addToListData?: any): any;
   addFormData: { title: string; credit: string; grade: string };
-  handleCourceFieldChange(event: any): any;
+  handleCourseFieldChange(event: any): any;
 }
 
 export interface heroSectionSchema {
@@ -10,10 +10,10 @@ export interface heroSectionSchema {
   description: string;
 }
 
-export interface courceListItem {
+export interface courseListItem {
   item: { title: string; credit: string; grade: string };
-  handleCourceFieldChange(event: any): any;
-  handleAddCource(event: any): any;
+  handleCourseFieldChange(event: any): any;
+  handleAddCourse(event: any): any;
   handleChangeView(event: any, value: boolean): any;
   viewGPA: boolean;
 }
@@ -41,13 +41,13 @@ export interface cardListSchema extends listSchema {
 }
 
 export interface suggestionListScehma {
-  cource_code: string;
-  cource_name: string;
-  cource_credit: number;
+  course_code: string;
+  course_name: string;
+  course_credit: number;
 }
 
 export interface listViewSchema {
-  cources: Array<listSchema>;
+  courses: Array<listSchema>;
   onDelete(event: any): any;
   viewGPA: boolean;
 }
@@ -55,9 +55,9 @@ export interface listViewSchema {
 export interface headerCardSchema {
   title: string;
   hide: boolean;
-  handleAddCource(event: any): any;
+  handleAddCourse(event: any): any;
   addFormData: { title: string; credit: string; grade: string };
-  handleCourceFieldChange(event: any): any;
+  handleCourseFieldChange(event: any): any;
   handleChangeView(event: any, value: boolean): any;
 }
 
@@ -70,8 +70,8 @@ export interface progressBarScehma {
 
 export interface resultCardScehma {
   viewGPA: boolean;
-  handleCourceFieldChange(event: any): any;
-  handleAddCource(event: any): any;
+  handleCourseFieldChange(event: any): any;
+  handleAddCourse(event: any): any;
   handleChangeView(event: any, value: boolean): any;
   gpa: number;
   addFormData: { title: string; credit: string; grade: string };

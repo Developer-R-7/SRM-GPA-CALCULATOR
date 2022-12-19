@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { searchBarScehma, suggestionListScehma } from "../shared/models/schema";
-import { all_cources } from "../shared/constants/data";
+import { all_courses } from "../shared/constants/data";
 
 export default function SearchBar(props: searchBarScehma) {
   const [searchText, setSearchText] = useState("");
@@ -16,28 +16,28 @@ export default function SearchBar(props: searchBarScehma) {
       const searchText = event.target.value.toLocaleLowerCase();
       setSearchText(searchText);
       setShowSuggestionDiv(true);
-      const searchCourceList = all_cources.filter((text) => {
-        return text.cource_name.toLocaleLowerCase().startsWith(searchText);
+      const searchCourseList = all_courses.filter((text) => {
+        return text.course_name.toLocaleLowerCase().startsWith(searchText);
       });
-      if (searchCourceList.length == 0) {
+      if (searchCourseList.length == 0) {
         setSuggestionList([
-          { cource_name: "No result found , add manually cources below" },
+          { course_name: "No result found , add manually courses below" },
         ]);
       } else {
-        setSuggestionList(searchCourceList.slice(0, 6));
+        setSuggestionList(searchCourseList.slice(0, 6));
       }
     }
   };
 
   const handleOnClick = (event: any) => {
-    const cource_code = event.target.id;
-    const course = all_cources.filter((course) => {
-      return course.cource_code === cource_code;
+    const course_code = event.target.id;
+    const course = all_courses.filter((course) => {
+      return course.course_code === course_code;
     })[0];
 
     const addToListData = {
-      title: course.cource_name,
-      credit: course.cource_credit,
+      title: course.course_name,
+      credit: course.course_credit,
       grade: props.addFormData.grade,
     };
 
@@ -97,14 +97,14 @@ export default function SearchBar(props: searchBarScehma) {
                     <button
                       type="button"
                       onClick={handleOnClick}
-                      key={course.cource_code}
-                      id={course.cource_code}
-                      disabled={course.cource_code ? false : true}
+                      key={course.course_code}
+                      id={course.course_code}
+                      disabled={course.course_code ? false : true}
                       className="py-2 px-4 w-full font-medium text-left border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white"
                     >
-                      {course.cource_code
-                        ? course.cource_code + " - " + course.cource_name
-                        : course.cource_name}
+                      {course.course_code
+                        ? course.course_code + " - " + course.course_name
+                        : course.course_name}
                     </button>
                   );
                 })}
@@ -120,7 +120,7 @@ export default function SearchBar(props: searchBarScehma) {
               name="grade"
               value={props.addFormData.grade}
               onChange={(event: any) => {
-                props.handleCourceFieldChange(event);
+                props.handleCourseFieldChange(event);
               }}
             >
               <option>Your grade</option>

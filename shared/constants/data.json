@@ -1,1092 +1,1092 @@
 [
     {
-        "cource_code": "18AIB101J",
-        "cource_name": "Foundation of Data Analysis",
-        "cource_credit": "5"
+        "course_code": "18AIB101J",
+        "course_name": "Foundation of Data Analysis",
+        "course_credit": "5"
     },
     {
-        "cource_code": "18AIB102T",
-        "cource_name": "Probability for Machine Learning",
-        "cource_credit": "4"
+        "course_code": "18AIB102T",
+        "course_name": "Probability for Machine Learning",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18AIB201T",
-        "cource_name": "Convex Optimization and Applications",
-        "cource_credit": "2"
+        "course_code": "18AIB201T",
+        "course_name": "Convex Optimization and Applications",
+        "course_credit": "2"
     },
     {
-        "cource_code": "18AIC201J",
-        "cource_name": "Application Based Programming using Python",
-        "cource_credit": "4"
+        "course_code": "18AIC201J",
+        "course_name": "Application Based Programming using Python",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18AIC202J",
-        "cource_name": "Foundation of Artificial Intelligence and Machine Learning",
-        "cource_credit": "4"
+        "course_code": "18AIC202J",
+        "course_name": "Foundation of Artificial Intelligence and Machine Learning",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18AIC203J",
-        "cource_name": "Data Analytics",
-        "cource_credit": "4"
+        "course_code": "18AIC203J",
+        "course_name": "Data Analytics",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18AIC301J",
-        "cource_name": "Neural Networks and Deep Learning",
-        "cource_credit": "4"
+        "course_code": "18AIC301J",
+        "course_name": "Neural Networks and Deep Learning",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18AIE321T",
-        "cource_name": "Logic and Knowledge Representation",
-        "cource_credit": "3"
+        "course_code": "18AIE321T",
+        "course_name": "Logic and Knowledge Representation",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18AIE322T",
-        "cource_name": "Numerical Mathematics for Data Science",
-        "cource_credit": "3"
+        "course_code": "18AIE322T",
+        "course_name": "Numerical Mathematics for Data Science",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18AIE323T",
-        "cource_name": "Machine Learning Optimization Algorithms",
-        "cource_credit": "3"
+        "course_code": "18AIE323T",
+        "course_name": "Machine Learning Optimization Algorithms",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18AIE324T",
-        "cource_name": "Big Data Frameworks \u2013 Hadoop, Spark and NoSQL",
-        "cource_credit": "3"
+        "course_code": "18AIE324T",
+        "course_name": "Big Data Frameworks \u2013 Hadoop, Spark and NoSQL",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18AIE325T",
-        "cource_name": "Deep Learning: Theory and Practice",
-        "cource_credit": "3"
+        "course_code": "18AIE325T",
+        "course_name": "Deep Learning: Theory and Practice",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18AIE326T",
-        "cource_name": "Graph Analytics for Big Data",
-        "cource_credit": "3"
+        "course_code": "18AIE326T",
+        "course_name": "Graph Analytics for Big Data",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18AIE327T",
-        "cource_name": "Complex Network Analysis and Visualization",
-        "cource_credit": "3"
+        "course_code": "18AIE327T",
+        "course_name": "Complex Network Analysis and Visualization",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18AIE328T",
-        "cource_name": "Bioinformatics",
-        "cource_credit": "3"
+        "course_code": "18AIE328T",
+        "course_name": "Bioinformatics",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18AIE329T",
-        "cource_name": "Robotics and Intelligent Systems",
-        "cource_credit": "3"
+        "course_code": "18AIE329T",
+        "course_name": "Robotics and Intelligent Systems",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18AIE330T",
-        "cource_name": "Stochastic Decision Making",
-        "cource_credit": "3"
+        "course_code": "18AIE330T",
+        "course_name": "Stochastic Decision Making",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18AIE331T",
-        "cource_name": "Building and Mining Knowledge Graphs",
-        "cource_credit": "3"
+        "course_code": "18AIE331T",
+        "course_name": "Building and Mining Knowledge Graphs",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18AIE332T",
-        "cource_name": "Pattern Recognition Algorithms",
-        "cource_credit": "3"
+        "course_code": "18AIE332T",
+        "course_name": "Pattern Recognition Algorithms",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18AIE421T",
-        "cource_name": "Intelligent Autonomous Systems",
-        "cource_credit": "3"
+        "course_code": "18AIE421T",
+        "course_name": "Intelligent Autonomous Systems",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18AIE422T",
-        "cource_name": "Speech Processing",
-        "cource_credit": "3"
+        "course_code": "18AIE422T",
+        "course_name": "Speech Processing",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18AIE423T",
-        "cource_name": "Design of Artificial Intelligence Products",
-        "cource_credit": "3"
+        "course_code": "18AIE423T",
+        "course_name": "Design of Artificial Intelligence Products",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18AIE425T",
-        "cource_name": "Data Privacy by Design",
-        "cource_credit": "3"
+        "course_code": "18AIE425T",
+        "course_name": "Data Privacy by Design",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18AIH201T",
-        "cource_name": "Management Principles for Data Analysis",
-        "cource_credit": "2"
+        "course_code": "18AIH201T",
+        "course_name": "Management Principles for Data Analysis",
+        "course_credit": "2"
     },
     {
-        "cource_code": "18AIH202T",
-        "cource_name": "Ethics and Policy Issues in AI Computing",
-        "cource_credit": "2"
+        "course_code": "18AIH202T",
+        "course_name": "Ethics and Policy Issues in AI Computing",
+        "course_credit": "2"
     },
     {
-        "cource_code": "18AIR424T",
-        "cource_name": "Reinforcement Learning",
-        "cource_credit": "3"
+        "course_code": "18AIR424T",
+        "course_name": "Reinforcement Learning",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18AIS101J",
-        "cource_name": "Introduction to MATLAB for Artificial Intelligence",
-        "cource_credit": "3"
+        "course_code": "18AIS101J",
+        "course_name": "Introduction to MATLAB for Artificial Intelligence",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18AIS102J",
-        "cource_name": "Smart Manufacturing",
-        "cource_credit": "3"
+        "course_code": "18AIS102J",
+        "course_name": "Smart Manufacturing",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSC161J",
-        "cource_name": "Fundamentals of Computer Science",
-        "cource_credit": "5"
+        "course_code": "18CSC161J",
+        "course_name": "Fundamentals of Computer Science",
+        "course_credit": "5"
     },
     {
-        "cource_code": "18CSC162J",
-        "cource_name": "Data Structures and Algorithms",
-        "cource_credit": "5"
+        "course_code": "18CSC162J",
+        "course_name": "Data Structures and Algorithms",
+        "course_credit": "5"
     },
     {
-        "cource_code": "18CSC201J",
-        "cource_name": "Data Structures and Algorithms",
-        "cource_credit": "4"
+        "course_code": "18CSC201J",
+        "course_name": "Data Structures and Algorithms",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18CSC202J",
-        "cource_name": "Object Oriented Design and Programming",
-        "cource_credit": "4"
+        "course_code": "18CSC202J",
+        "course_name": "Object Oriented Design and Programming",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18CSC203J",
-        "cource_name": "Computer Organization and Architecture",
-        "cource_credit": "4"
+        "course_code": "18CSC203J",
+        "course_name": "Computer Organization and Architecture",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18CSC204J",
-        "cource_name": "Design and Analysis of Algorithms",
-        "cource_credit": "4"
+        "course_code": "18CSC204J",
+        "course_name": "Design and Analysis of Algorithms",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18CSC205J",
-        "cource_name": "Operating Systems",
-        "cource_credit": "4"
+        "course_code": "18CSC205J",
+        "course_name": "Operating Systems",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18CSC206J",
-        "cource_name": "Software Engineering and Project Management",
-        "cource_credit": "4"
+        "course_code": "18CSC206J",
+        "course_name": "Software Engineering and Project Management",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18CSC207J",
-        "cource_name": "Advanced Programming Practice",
-        "cource_credit": "4"
+        "course_code": "18CSC207J",
+        "course_name": "Advanced Programming Practice",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18CSC208L",
-        "cource_name": "Competitive Professional Skills-I",
-        "cource_credit": "1"
+        "course_code": "18CSC208L",
+        "course_name": "Competitive Professional Skills-I",
+        "course_credit": "1"
     },
     {
-        "cource_code": "18CSC261T",
-        "cource_name": "Formal Language and Automata Theory",
-        "cource_credit": "3"
+        "course_code": "18CSC261T",
+        "course_name": "Formal Language and Automata Theory",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSC262J",
-        "cource_name": "Computer Organization and Architecture",
-        "cource_credit": "4"
+        "course_code": "18CSC262J",
+        "course_name": "Computer Organization and Architecture",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18CSC263J",
-        "cource_name": "Object Oriented Programming",
-        "cource_credit": "4"
+        "course_code": "18CSC263J",
+        "course_name": "Object Oriented Programming",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18CSC264J",
-        "cource_name": "Computational Statistics",
-        "cource_credit": "4"
+        "course_code": "18CSC264J",
+        "course_name": "Computational Statistics",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18CSC265J",
-        "cource_name": "Software Engineering",
-        "cource_credit": "4"
+        "course_code": "18CSC265J",
+        "course_name": "Software Engineering",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18CSC266J",
-        "cource_name": "Operating Systems",
-        "cource_credit": "4"
+        "course_code": "18CSC266J",
+        "course_name": "Operating Systems",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18CSC267J",
-        "cource_name": "Database Management Systems",
-        "cource_credit": "4"
+        "course_code": "18CSC267J",
+        "course_name": "Database Management Systems",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18CSC268J",
-        "cource_name": "Software Design with UML",
-        "cource_credit": "3"
+        "course_code": "18CSC268J",
+        "course_name": "Software Design with UML",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSC301T",
-        "cource_name": "Formal Language and Automata",
-        "cource_credit": "3"
+        "course_code": "18CSC301T",
+        "course_name": "Formal Language and Automata",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSC302J",
-        "cource_name": "Computer Networks",
-        "cource_credit": "4"
+        "course_code": "18CSC302J",
+        "course_name": "Computer Networks",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18CSC303J",
-        "cource_name": "Database Management Systems",
-        "cource_credit": "4"
+        "course_code": "18CSC303J",
+        "course_name": "Database Management Systems",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18CSC304J",
-        "cource_name": "Compiler Design",
-        "cource_credit": "4"
+        "course_code": "18CSC304J",
+        "course_name": "Compiler Design",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18CSC305J",
-        "cource_name": "Artificial Intelligence",
-        "cource_credit": "4"
+        "course_code": "18CSC305J",
+        "course_name": "Artificial Intelligence",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18CSC306L",
-        "cource_name": "Competitive Professional Skills-II",
-        "cource_credit": "1"
+        "course_code": "18CSC306L",
+        "course_name": "Competitive Professional Skills-II",
+        "course_credit": "1"
     },
     {
-        "cource_code": "18CSC307L",
-        "cource_name": "Competitive Professional Skills-III",
-        "cource_credit": "1"
+        "course_code": "18CSC307L",
+        "course_name": "Competitive Professional Skills-III",
+        "course_credit": "1"
     },
     {
-        "cource_code": "18CSC361J",
-        "cource_name": "Design and Analysis of Algorithms",
-        "cource_credit": "4"
+        "course_code": "18CSC361J",
+        "course_name": "Design and Analysis of Algorithms",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18CSC362J",
-        "cource_name": "Compiler Design",
-        "cource_credit": "4"
+        "course_code": "18CSC362J",
+        "course_name": "Compiler Design",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18CSC363J",
-        "cource_name": "Computer Networks",
-        "cource_credit": "4"
+        "course_code": "18CSC363J",
+        "course_name": "Computer Networks",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18CSC364J",
-        "cource_name": "Information Security",
-        "cource_credit": "4"
+        "course_code": "18CSC364J",
+        "course_name": "Information Security",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18CSC365J",
-        "cource_name": "Artificial Intelligence",
-        "cource_credit": "4"
+        "course_code": "18CSC365J",
+        "course_name": "Artificial Intelligence",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18CSC461J",
-        "cource_name": "Usability Design of Software Applications",
-        "cource_credit": "3"
+        "course_code": "18CSC461J",
+        "course_name": "Usability Design of Software Applications",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSC462J",
-        "cource_name": "IT Workshop using Scilab",
-        "cource_credit": "2"
+        "course_code": "18CSC462J",
+        "course_name": "IT Workshop using Scilab",
+        "course_credit": "2"
     },
     {
-        "cource_code": "18CSE332T",
-        "cource_name": "Distributed Systems and Applications",
-        "cource_credit": "3"
+        "course_code": "18CSE332T",
+        "course_name": "Distributed Systems and Applications",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE333T",
-        "cource_name": "Big Data Tools and Techniques for Blockchain",
-        "cource_credit": "3"
+        "course_code": "18CSE333T",
+        "course_name": "Big Data Tools and Techniques for Blockchain",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE334T",
-        "cource_name": "Blockchain using Cryptography",
-        "cource_credit": "3"
+        "course_code": "18CSE334T",
+        "course_name": "Blockchain using Cryptography",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE335T",
-        "cource_name": "Principles of Cryptography",
-        "cource_credit": "3"
+        "course_code": "18CSE335T",
+        "course_name": "Principles of Cryptography",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE336T",
-        "cource_name": "Design Thinking for Game Development",
-        "cource_credit": "3"
+        "course_code": "18CSE336T",
+        "course_name": "Design Thinking for Game Development",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE337J",
-        "cource_name": "Game Design, Prototyping and Development",
-        "cource_credit": "3"
+        "course_code": "18CSE337J",
+        "course_name": "Game Design, Prototyping and Development",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE338J",
-        "cource_name": "Computer Graphics",
-        "cource_credit": "3"
+        "course_code": "18CSE338J",
+        "course_name": "Computer Graphics",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE339T",
-        "cource_name": "Multimedia Tools and Applications",
-        "cource_credit": "3"
+        "course_code": "18CSE339T",
+        "course_name": "Multimedia Tools and Applications",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE340T",
-        "cource_name": "GPU Programming",
-        "cource_credit": "3"
+        "course_code": "18CSE340T",
+        "course_name": "GPU Programming",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE341T",
-        "cource_name": "Communication Systems Engineering",
-        "cource_credit": "3"
+        "course_code": "18CSE341T",
+        "course_name": "Communication Systems Engineering",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE342T",
-        "cource_name": "Digital Communication Systems",
-        "cource_credit": "3"
+        "course_code": "18CSE342T",
+        "course_name": "Digital Communication Systems",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE343T",
-        "cource_name": "Web Application Development",
-        "cource_credit": "3"
+        "course_code": "18CSE343T",
+        "course_name": "Web Application Development",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE344T",
-        "cource_name": "Cloud Architecture",
-        "cource_credit": "3"
+        "course_code": "18CSE344T",
+        "course_name": "Cloud Architecture",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE345T",
-        "cource_name": "Internet of Things Architecture and Protocols",
-        "cource_credit": "3"
+        "course_code": "18CSE345T",
+        "course_name": "Internet of Things Architecture and Protocols",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE346T",
-        "cource_name": "Network Programming",
-        "cource_credit": "3"
+        "course_code": "18CSE346T",
+        "course_name": "Network Programming",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE351T",
-        "cource_name": "Computational Logic",
-        "cource_credit": "3"
+        "course_code": "18CSE351T",
+        "course_name": "Computational Logic",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE352T",
-        "cource_name": "Neuro Fuzzy and Genetic Programming",
-        "cource_credit": "3"
+        "course_code": "18CSE352T",
+        "course_name": "Neuro Fuzzy and Genetic Programming",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE353T",
-        "cource_name": "Digital Image Processing",
-        "cource_credit": "3"
+        "course_code": "18CSE353T",
+        "course_name": "Digital Image Processing",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE354T",
-        "cource_name": "Network Security",
-        "cource_credit": "3"
+        "course_code": "18CSE354T",
+        "course_name": "Network Security",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE355T",
-        "cource_name": "Data Mining and Analytics",
-        "cource_credit": "3"
+        "course_code": "18CSE355T",
+        "course_name": "Data Mining and Analytics",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE356T",
-        "cource_name": "Distributed Operating Systems",
-        "cource_credit": "3"
+        "course_code": "18CSE356T",
+        "course_name": "Distributed Operating Systems",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE357T",
-        "cource_name": "Biometrics",
-        "cource_credit": "3"
+        "course_code": "18CSE357T",
+        "course_name": "Biometrics",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE358T",
-        "cource_name": "Pattern Recognition Techniques",
-        "cource_credit": "3"
+        "course_code": "18CSE358T",
+        "course_name": "Pattern Recognition Techniques",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE359T",
-        "cource_name": "Natural Language Processing",
-        "cource_credit": "3"
+        "course_code": "18CSE359T",
+        "course_name": "Natural Language Processing",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE360T",
-        "cource_name": "Information Storage and Management",
-        "cource_credit": "3"
+        "course_code": "18CSE360T",
+        "course_name": "Information Storage and Management",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE361T",
-        "cource_name": "Web Programming",
-        "cource_credit": "3"
+        "course_code": "18CSE361T",
+        "course_name": "Web Programming",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE362T",
-        "cource_name": "Integrative Programming and Technology",
-        "cource_credit": "3"
+        "course_code": "18CSE362T",
+        "course_name": "Integrative Programming and Technology",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE364T",
-        "cource_name": "System Administration and Maintenance",
-        "cource_credit": "3"
+        "course_code": "18CSE364T",
+        "course_name": "System Administration and Maintenance",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE365T",
-        "cource_name": "Fundamentals of Virtualization",
-        "cource_credit": "3"
+        "course_code": "18CSE365T",
+        "course_name": "Fundamentals of Virtualization",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE366T",
-        "cource_name": "Human Computer Interaction",
-        "cource_credit": "3"
+        "course_code": "18CSE366T",
+        "course_name": "Human Computer Interaction",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE367T",
-        "cource_name": "Requirements Engineering",
-        "cource_credit": "3"
+        "course_code": "18CSE367T",
+        "course_name": "Requirements Engineering",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE368T",
-        "cource_name": "Software Architecture and Design",
-        "cource_credit": "3"
+        "course_code": "18CSE368T",
+        "course_name": "Software Architecture and Design",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE369T",
-        "cource_name": "Software Modeling and Analysis",
-        "cource_credit": "3"
+        "course_code": "18CSE369T",
+        "course_name": "Software Modeling and Analysis",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE370T",
-        "cource_name": "Design Patterns",
-        "cource_credit": "3"
+        "course_code": "18CSE370T",
+        "course_name": "Design Patterns",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE371T",
-        "cource_name": "User Interface Design",
-        "cource_credit": "3"
+        "course_code": "18CSE371T",
+        "course_name": "User Interface Design",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE372T",
-        "cource_name": "Visual Programming",
-        "cource_credit": "3"
+        "course_code": "18CSE372T",
+        "course_name": "Visual Programming",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE373T",
-        "cource_name": "Programming in Java Script",
-        "cource_credit": "3"
+        "course_code": "18CSE373T",
+        "course_name": "Programming in Java Script",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE374T",
-        "cource_name": "Software Engineering Tools",
-        "cource_credit": "3"
+        "course_code": "18CSE374T",
+        "course_name": "Software Engineering Tools",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE375T",
-        "cource_name": "Distributed Computing",
-        "cource_credit": "3"
+        "course_code": "18CSE375T",
+        "course_name": "Distributed Computing",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE376T",
-        "cource_name": "Optical Networks",
-        "cource_credit": "3"
+        "course_code": "18CSE376T",
+        "course_name": "Optical Networks",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE377T",
-        "cource_name": "Data Centric Networks",
-        "cource_credit": "3"
+        "course_code": "18CSE377T",
+        "course_name": "Data Centric Networks",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE378T",
-        "cource_name": "Principles of Cloud Computing",
-        "cource_credit": "3"
+        "course_code": "18CSE378T",
+        "course_name": "Principles of Cloud Computing",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE379T",
-        "cource_name": "Internet of Things",
-        "cource_credit": "3"
+        "course_code": "18CSE379T",
+        "course_name": "Internet of Things",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE380T",
-        "cource_name": "Pervasive Computing",
-        "cource_credit": "3"
+        "course_code": "18CSE380T",
+        "course_name": "Pervasive Computing",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE381T",
-        "cource_name": "Cryptography",
-        "cource_credit": "3"
+        "course_code": "18CSE381T",
+        "course_name": "Cryptography",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE382T",
-        "cource_name": "Forensics And Incident Response",
-        "cource_credit": "3"
+        "course_code": "18CSE382T",
+        "course_name": "Forensics And Incident Response",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE383T",
-        "cource_name": "Information Assurance and Security",
-        "cource_credit": "3"
+        "course_code": "18CSE383T",
+        "course_name": "Information Assurance and Security",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE384T",
-        "cource_name": "Secure Software Development Life Cycle",
-        "cource_credit": "3"
+        "course_code": "18CSE384T",
+        "course_name": "Secure Software Development Life Cycle",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE385T",
-        "cource_name": "Security Audit and Risk Assessment",
-        "cource_credit": "3"
+        "course_code": "18CSE385T",
+        "course_name": "Security Audit and Risk Assessment",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE386T",
-        "cource_name": "Penetration Testing and Vulnerability Assessment",
-        "cource_credit": "3"
+        "course_code": "18CSE386T",
+        "course_name": "Penetration Testing and Vulnerability Assessment",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE387T",
-        "cource_name": "Genetic algorithm and its Applications",
-        "cource_credit": "3"
+        "course_code": "18CSE387T",
+        "course_name": "Genetic algorithm and its Applications",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE388T",
-        "cource_name": "Artificial Neural networks",
-        "cource_credit": "3"
+        "course_code": "18CSE388T",
+        "course_name": "Artificial Neural networks",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE389T",
-        "cource_name": "Fuzzy Logic and its Applications",
-        "cource_credit": "3"
+        "course_code": "18CSE389T",
+        "course_name": "Fuzzy Logic and its Applications",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE390T",
-        "cource_name": "Computer Vision",
-        "cource_credit": "3"
+        "course_code": "18CSE390T",
+        "course_name": "Computer Vision",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE391T",
-        "cource_name": "Big Data Tools and Techniques",
-        "cource_credit": "3"
+        "course_code": "18CSE391T",
+        "course_name": "Big Data Tools and Techniques",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE392T",
-        "cource_name": "Machine Learning - I",
-        "cource_credit": "3"
+        "course_code": "18CSE392T",
+        "course_name": "Machine Learning - I",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE393T",
-        "cource_name": "Text Mining",
-        "cource_credit": "3"
+        "course_code": "18CSE393T",
+        "course_name": "Text Mining",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE394T",
-        "cource_name": "Business Intelligence and Analytics",
-        "cource_credit": "3"
+        "course_code": "18CSE394T",
+        "course_name": "Business Intelligence and Analytics",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE395T",
-        "cource_name": "Web Intelligence",
-        "cource_credit": "3"
+        "course_code": "18CSE395T",
+        "course_name": "Web Intelligence",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE396T",
-        "cource_name": "Data Science",
-        "cource_credit": "3"
+        "course_code": "18CSE396T",
+        "course_name": "Data Science",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE397T",
-        "cource_name": "Computational Data Analysis",
-        "cource_credit": "3"
+        "course_code": "18CSE397T",
+        "course_name": "Computational Data Analysis",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE431T",
-        "cource_name": "Distributed Ledger Technology",
-        "cource_credit": "3"
+        "course_code": "18CSE431T",
+        "course_name": "Distributed Ledger Technology",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE432T",
-        "cource_name": "Smart Contracts and Application Development",
-        "cource_credit": "3"
+        "course_code": "18CSE432T",
+        "course_name": "Smart Contracts and Application Development",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE433T",
-        "cource_name": "Trust based computing",
-        "cource_credit": "3"
+        "course_code": "18CSE433T",
+        "course_name": "Trust based computing",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE434T",
-        "cource_name": "Web3 Development",
-        "cource_credit": "3"
+        "course_code": "18CSE434T",
+        "course_name": "Web3 Development",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE435T",
-        "cource_name": "Advanced Cryptography",
-        "cource_credit": "3"
+        "course_code": "18CSE435T",
+        "course_name": "Advanced Cryptography",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE436T",
-        "cource_name": "Gaming Studio for Business",
-        "cource_credit": "3"
+        "course_code": "18CSE436T",
+        "course_name": "Gaming Studio for Business",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE437T",
-        "cource_name": "Virtual Reality and Augmented Reality",
-        "cource_credit": "3"
+        "course_code": "18CSE437T",
+        "course_name": "Virtual Reality and Augmented Reality",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE438J",
-        "cource_name": "Computer Animation and Simulation",
-        "cource_credit": "3"
+        "course_code": "18CSE438J",
+        "course_name": "Computer Animation and Simulation",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE439T",
-        "cource_name": "Mobile Game Development",
-        "cource_credit": "3"
+        "course_code": "18CSE439T",
+        "course_name": "Mobile Game Development",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE440T",
-        "cource_name": "Psychology and Economy of Games",
-        "cource_credit": "3"
+        "course_code": "18CSE440T",
+        "course_name": "Psychology and Economy of Games",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE441T",
-        "cource_name": "Cloud Application Development",
-        "cource_credit": "3"
+        "course_code": "18CSE441T",
+        "course_name": "Cloud Application Development",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE442T",
-        "cource_name": "Cloud Security",
-        "cource_credit": "3"
+        "course_code": "18CSE442T",
+        "course_name": "Cloud Security",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE443T",
-        "cource_name": "Big Data Essentials",
-        "cource_credit": "3"
+        "course_code": "18CSE443T",
+        "course_name": "Big Data Essentials",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE444T",
-        "cource_name": "Cloud Strategy Planning and Management",
-        "cource_credit": "3"
+        "course_code": "18CSE444T",
+        "course_name": "Cloud Strategy Planning and Management",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE445T",
-        "cource_name": "Internet of Things Security",
-        "cource_credit": "3"
+        "course_code": "18CSE445T",
+        "course_name": "Internet of Things Security",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE446T",
-        "cource_name": "Advanced Database Systems",
-        "cource_credit": "3"
+        "course_code": "18CSE446T",
+        "course_name": "Advanced Database Systems",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE447T",
-        "cource_name": "Edge Computing",
-        "cource_credit": "3"
+        "course_code": "18CSE447T",
+        "course_name": "Edge Computing",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE448T",
-        "cource_name": "Energy Management for Internet of Things Devices",
-        "cource_credit": "3"
+        "course_code": "18CSE448T",
+        "course_name": "Energy Management for Internet of Things Devices",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE449T",
-        "cource_name": "Data Analysis and Visualization",
-        "cource_credit": "3"
+        "course_code": "18CSE449T",
+        "course_name": "Data Analysis and Visualization",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE451T",
-        "cource_name": "Wireless Sensor Networks",
-        "cource_credit": "3"
+        "course_code": "18CSE451T",
+        "course_name": "Wireless Sensor Networks",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE452T",
-        "cource_name": "Network Protocols and Programming",
-        "cource_credit": "3"
+        "course_code": "18CSE452T",
+        "course_name": "Network Protocols and Programming",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE453T",
-        "cource_name": "Network Routing Algorithms",
-        "cource_credit": "3"
+        "course_code": "18CSE453T",
+        "course_name": "Network Routing Algorithms",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE454T",
-        "cource_name": "High Performance Computing",
-        "cource_credit": "3"
+        "course_code": "18CSE454T",
+        "course_name": "High Performance Computing",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE455T",
-        "cource_name": "Database Security and Privacy",
-        "cource_credit": "3"
+        "course_code": "18CSE455T",
+        "course_name": "Database Security and Privacy",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE456T",
-        "cource_name": "Software Defined Networks",
-        "cource_credit": "3"
+        "course_code": "18CSE456T",
+        "course_name": "Software Defined Networks",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE457T",
-        "cource_name": "Semantic Web",
-        "cource_credit": "3"
+        "course_code": "18CSE457T",
+        "course_name": "Semantic Web",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE458T",
-        "cource_name": "Wireless and Mobile Communication",
-        "cource_credit": "3"
+        "course_code": "18CSE458T",
+        "course_name": "Wireless and Mobile Communication",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE459T",
-        "cource_name": "Service Oriented Architecture",
-        "cource_credit": "3"
+        "course_code": "18CSE459T",
+        "course_name": "Service Oriented Architecture",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE460T",
-        "cource_name": "Network Design and Management",
-        "cource_credit": "3"
+        "course_code": "18CSE460T",
+        "course_name": "Network Design and Management",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE461T",
-        "cource_name": "Internet Security and Cyber Forensics",
-        "cource_credit": "3"
+        "course_code": "18CSE461T",
+        "course_name": "Internet Security and Cyber Forensics",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE462T",
-        "cource_name": "Data Centre Administration and Management",
-        "cource_credit": "3"
+        "course_code": "18CSE462T",
+        "course_name": "Data Centre Administration and Management",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE463T",
-        "cource_name": "IT Service Management and Operations",
-        "cource_credit": "3"
+        "course_code": "18CSE463T",
+        "course_name": "IT Service Management and Operations",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE464T",
-        "cource_name": "Computer Graphics and Game programming",
-        "cource_credit": "3"
+        "course_code": "18CSE464T",
+        "course_name": "Computer Graphics and Game programming",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE465T",
-        "cource_name": "Computational Media",
-        "cource_credit": "3"
+        "course_code": "18CSE465T",
+        "course_name": "Computational Media",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE466T",
-        "cource_name": "Software Verification and Validation",
-        "cource_credit": "3"
+        "course_code": "18CSE466T",
+        "course_name": "Software Verification and Validation",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE467T",
-        "cource_name": "Software Quality Assurance",
-        "cource_credit": "3"
+        "course_code": "18CSE467T",
+        "course_name": "Software Quality Assurance",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE468T",
-        "cource_name": "Software Measurements and Metrics",
-        "cource_credit": "3"
+        "course_code": "18CSE468T",
+        "course_name": "Software Measurements and Metrics",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE469T",
-        "cource_name": "Software Process and Agile Practices",
-        "cource_credit": "3"
+        "course_code": "18CSE469T",
+        "course_name": "Software Process and Agile Practices",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE470T",
-        "cource_name": "Software Security",
-        "cource_credit": "3"
+        "course_code": "18CSE470T",
+        "course_name": "Software Security",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE471T",
-        "cource_name": "Software Maintenance and Administration",
-        "cource_credit": "3"
+        "course_code": "18CSE471T",
+        "course_name": "Software Maintenance and Administration",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE472T",
-        "cource_name": "Malware Analysis",
-        "cource_credit": "3"
+        "course_code": "18CSE472T",
+        "course_name": "Malware Analysis",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE474T",
-        "cource_name": "Cyber Law",
-        "cource_credit": "3"
+        "course_code": "18CSE474T",
+        "course_name": "Cyber Law",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE475T",
-        "cource_name": "Mobile and Wireless Security",
-        "cource_credit": "3"
+        "course_code": "18CSE475T",
+        "course_name": "Mobile and Wireless Security",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE476T",
-        "cource_name": "Database Security",
-        "cource_credit": "3"
+        "course_code": "18CSE476T",
+        "course_name": "Database Security",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE477T",
-        "cource_name": "Security Governance, Risk and compliance",
-        "cource_credit": "3"
+        "course_code": "18CSE477T",
+        "course_name": "Security Governance, Risk and compliance",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE478T",
-        "cource_name": "Operation System Security",
-        "cource_credit": "3"
+        "course_code": "18CSE478T",
+        "course_name": "Operation System Security",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE479T",
-        "cource_name": "Statistical Machine Learning",
-        "cource_credit": "3"
+        "course_code": "18CSE479T",
+        "course_name": "Statistical Machine Learning",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE480T",
-        "cource_name": "Nature Inspired Computing Techniques",
-        "cource_credit": "3"
+        "course_code": "18CSE480T",
+        "course_name": "Nature Inspired Computing Techniques",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE481T",
-        "cource_name": "Applied Machine Learning",
-        "cource_credit": "3"
+        "course_code": "18CSE481T",
+        "course_name": "Applied Machine Learning",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE482T",
-        "cource_name": "Computational Neuroscience",
-        "cource_credit": "3"
+        "course_code": "18CSE482T",
+        "course_name": "Computational Neuroscience",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE483T",
-        "cource_name": "Intelligent Machining",
-        "cource_credit": "3"
+        "course_code": "18CSE483T",
+        "course_name": "Intelligent Machining",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE484T",
-        "cource_name": "Deep Learning",
-        "cource_credit": "3"
+        "course_code": "18CSE484T",
+        "course_name": "Deep Learning",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE485T",
-        "cource_name": "Robotics: Computational Motion Planning",
-        "cource_credit": "3"
+        "course_code": "18CSE485T",
+        "course_name": "Robotics: Computational Motion Planning",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE486T",
-        "cource_name": "Advanced Algorithms",
-        "cource_credit": "3"
+        "course_code": "18CSE486T",
+        "course_name": "Advanced Algorithms",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE487T",
-        "cource_name": "Data Warehousing and its Applications",
-        "cource_credit": "3"
+        "course_code": "18CSE487T",
+        "course_name": "Data Warehousing and its Applications",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE488T",
-        "cource_name": "Functional Programming",
-        "cource_credit": "3"
+        "course_code": "18CSE488T",
+        "course_name": "Functional Programming",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE489T",
-        "cource_name": "Streaming Analytics",
-        "cource_credit": "3"
+        "course_code": "18CSE489T",
+        "course_name": "Streaming Analytics",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE490T",
-        "cource_name": "Big Data Visualization",
-        "cource_credit": "3"
+        "course_code": "18CSE490T",
+        "course_name": "Big Data Visualization",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSE491T",
-        "cource_name": "Machine Learning \u2013 II",
-        "cource_credit": "3"
+        "course_code": "18CSE491T",
+        "course_name": "Machine Learning \u2013 II",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSP101L",
-        "cource_name": "Massive Open Online Course - I",
-        "cource_credit": "1"
+        "course_code": "18CSP101L",
+        "course_name": "Massive Open Online Course - I",
+        "course_credit": "1"
     },
     {
-        "cource_code": "18CSP102L",
-        "cource_name": "Industrial Training-I",
-        "cource_credit": "1"
+        "course_code": "18CSP102L",
+        "course_name": "Industrial Training-I",
+        "course_credit": "1"
     },
     {
-        "cource_code": "18CSP103L",
-        "cource_name": "Seminar - I",
-        "cource_credit": "1"
+        "course_code": "18CSP103L",
+        "course_name": "Seminar - I",
+        "course_credit": "1"
     },
     {
-        "cource_code": "18CSP104L",
-        "cource_name": "Massive Open Online Course - II",
-        "cource_credit": "1"
+        "course_code": "18CSP104L",
+        "course_name": "Massive Open Online Course - II",
+        "course_credit": "1"
     },
     {
-        "cource_code": "18CSP105L",
-        "cource_name": "Industrial Training-II",
-        "cource_credit": "1"
+        "course_code": "18CSP105L",
+        "course_name": "Industrial Training-II",
+        "course_credit": "1"
     },
     {
-        "cource_code": "18CSP106L",
-        "cource_name": "Seminar - II",
-        "cource_credit": "1"
+        "course_code": "18CSP106L",
+        "course_name": "Seminar - II",
+        "course_credit": "1"
     },
     {
-        "cource_code": "18CSP107L",
-        "cource_name": "Minor Project",
-        "cource_credit": "3"
+        "course_code": "18CSP107L",
+        "course_name": "Minor Project",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSP108L",
-        "cource_name": "Internship (4-6 weeks)",
-        "cource_credit": "3"
+        "course_code": "18CSP108L",
+        "course_name": "Internship (4-6 weeks)",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSP109L",
-        "cource_name": "Project",
-        "cource_credit": "10"
+        "course_code": "18CSP109L",
+        "course_name": "Project",
+        "course_credit": "10"
     },
     {
-        "cource_code": "18CSP110L",
-        "cource_name": "Semester Internship",
-        "cource_credit": "10"
+        "course_code": "18CSP110L",
+        "course_name": "Semester Internship",
+        "course_credit": "10"
     },
     {
-        "cource_code": "18CSP361L",
-        "cource_name": "Mini Project \u2013 1",
-        "cource_credit": "1"
+        "course_code": "18CSP361L",
+        "course_name": "Mini Project \u2013 1",
+        "course_credit": "1"
     },
     {
-        "cource_code": "18CSP461L",
-        "cource_name": "Project Evaluation \u2013 1",
-        "cource_credit": "3"
+        "course_code": "18CSP461L",
+        "course_name": "Project Evaluation \u2013 1",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18CSP462L",
-        "cource_name": "Project Evaluation \u2013 2",
-        "cource_credit": "10"
+        "course_code": "18CSP462L",
+        "course_name": "Project Evaluation \u2013 2",
+        "course_credit": "10"
     },
     {
-        "cource_code": "18CSS101J",
-        "cource_name": "Programming for Problem Solving",
-        "cource_credit": "5"
+        "course_code": "18CSS101J",
+        "course_name": "Programming for Problem Solving",
+        "course_credit": "5"
     },
     {
-        "cource_code": "18EES161J",
-        "cource_name": "Principles of Electrical Engineering",
-        "cource_credit": "3"
+        "course_code": "18EES161J",
+        "course_name": "Principles of Electrical Engineering",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18EES162J",
-        "cource_name": "Principles of Electronics",
-        "cource_credit": "3"
+        "course_code": "18EES162J",
+        "course_name": "Principles of Electronics",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18MAB161T",
-        "cource_name": "Discrete Mathematics",
-        "cource_credit": "4"
+        "course_code": "18MAB161T",
+        "course_name": "Discrete Mathematics",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18MAB162T",
-        "cource_name": "Probability and Statistics",
-        "cource_credit": "3"
+        "course_code": "18MAB162T",
+        "course_name": "Probability and Statistics",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18MAB163T",
-        "cource_name": "Linear Algebra",
-        "cource_credit": "4"
+        "course_code": "18MAB163T",
+        "course_name": "Linear Algebra",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18MAB164J",
-        "cource_name": "Statistical Modeling",
-        "cource_credit": "4"
+        "course_code": "18MAB164J",
+        "course_name": "Statistical Modeling",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18MAB261J",
-        "cource_name": "Operations Research",
-        "cource_credit": "3"
+        "course_code": "18MAB261J",
+        "course_name": "Operations Research",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18MBH161T",
-        "cource_name": "Business Communication & Value Science \u2013 I",
-        "cource_credit": "2"
+        "course_code": "18MBH161T",
+        "course_name": "Business Communication & Value Science \u2013 I",
+        "course_credit": "2"
     },
     {
-        "cource_code": "18MBH162T",
-        "cource_name": "Business Communication & Value Science \u2013 II",
-        "cource_credit": "2"
+        "course_code": "18MBH162T",
+        "course_name": "Business Communication & Value Science \u2013 II",
+        "course_credit": "2"
     },
     {
-        "cource_code": "18MBH163T",
-        "cource_name": "Fundamentals of Economics",
-        "cource_credit": "2"
+        "course_code": "18MBH163T",
+        "course_name": "Fundamentals of Economics",
+        "course_credit": "2"
     },
     {
-        "cource_code": "18MBH261T",
-        "cource_name": "Introduction to Innovation, IP Management and\nEntrepreneurship",
-        "cource_credit": "3"
+        "course_code": "18MBH261T",
+        "course_name": "Introduction to Innovation, IP Management and\nEntrepreneurship",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18MBH262J",
-        "cource_name": "Design Thinking",
-        "cource_credit": "3"
+        "course_code": "18MBH262J",
+        "course_name": "Design Thinking",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18MBH361T",
-        "cource_name": "Business Communication & Value Science \u2013 III",
-        "cource_credit": "2"
+        "course_code": "18MBH361T",
+        "course_name": "Business Communication & Value Science \u2013 III",
+        "course_credit": "2"
     },
     {
-        "cource_code": "18MBH362T",
-        "cource_name": "Business Communication & Value Science \u2013 IV",
-        "cource_credit": "2"
+        "course_code": "18MBH362T",
+        "course_name": "Business Communication & Value Science \u2013 IV",
+        "course_credit": "2"
     },
     {
-        "cource_code": "18MBH363T",
-        "cource_name": "Fundamentals of Management",
-        "cource_credit": "2"
+        "course_code": "18MBH363T",
+        "course_name": "Fundamentals of Management",
+        "course_credit": "2"
     },
     {
-        "cource_code": "18MBH364T",
-        "cource_name": "Business Strategy",
-        "cource_credit": "2"
+        "course_code": "18MBH364T",
+        "course_name": "Business Strategy",
+        "course_credit": "2"
     },
     {
-        "cource_code": "18MBH365T",
-        "cource_name": "Financial and Cost Accounting",
-        "cource_credit": "2"
+        "course_code": "18MBH365T",
+        "course_name": "Financial and Cost Accounting",
+        "course_credit": "2"
     },
     {
-        "cource_code": "18MBH461T",
-        "cource_name": "Financial Management",
-        "cource_credit": "2"
+        "course_code": "18MBH461T",
+        "course_name": "Financial Management",
+        "course_credit": "2"
     },
     {
-        "cource_code": "18MBH462T",
-        "cource_name": "Human Resource Management",
-        "cource_credit": "2"
+        "course_code": "18MBH462T",
+        "course_name": "Human Resource Management",
+        "course_credit": "2"
     },
     {
-        "cource_code": "18MBH463J",
-        "cource_name": "Services Science and Service Operational Management",
-        "cource_credit": "4"
+        "course_code": "18MBH463J",
+        "course_name": "Services Science and Service Operational Management",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18MBH464J",
-        "cource_name": "IT Project Management",
-        "cource_credit": "4"
+        "course_code": "18MBH464J",
+        "course_name": "IT Project Management",
+        "course_credit": "4"
     },
     {
-        "cource_code": "18MBH465T",
-        "cource_name": "Marketing Research and Marketing Management",
-        "cource_credit": "2"
+        "course_code": "18MBH465T",
+        "course_name": "Marketing Research and Marketing Management",
+        "course_credit": "2"
     },
     {
-        "cource_code": "18PYB161J",
-        "cource_name": "Fundamentals of Physics",
-        "cource_credit": "3"
+        "course_code": "18PYB161J",
+        "course_name": "Fundamentals of Physics",
+        "course_credit": "3"
     },
     {
-        "cource_code": "18EES101J",
-        "cource_name": "Basic Electrical and Electronics Engineering",
-        "cource_credit": "5"
+        "course_code": "18EES101J",
+        "course_name": "Basic Electrical and Electronics Engineering",
+        "course_credit": "5"
     }
 ]

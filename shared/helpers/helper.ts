@@ -8,39 +8,39 @@ export const notify = (message: string, status: ToastSchema) => {
   status == "success" ? toast.success(message) : toast.error(message);
 };
 
-export const getCourceItem = (
+export const getCourseItem = (
   formData: any,
   addFormData: { title: string; credit: string; grade: string }
 ) => {
-  let cource_record: listSchema;
+  let course_record: listSchema;
   if (!formData) {
-    cource_record = {
+    course_record = {
       id: nanoid(),
       title: addFormData.title || "",
       credit: addFormData.credit || "",
       grade: addFormData.grade || "",
     };
   } else {
-    cource_record = {
+    course_record = {
       id: nanoid(),
       title: formData.title || "",
       credit: formData.credit || "",
       grade: formData.grade || "",
     };
   }
-  return cource_record;
+  return course_record;
 };
 
-export const calculateGPA = (cources: Array<listSchema>) => {
+export const calculateGPA = (courses: Array<listSchema>) => {
   let gpa = 0;
 
-  for (let i = 0; i < cources.length; i++) {
-    const item = cources[i];
-    const cource_gpa =
+  for (let i = 0; i < courses.length; i++) {
+    const item = courses[i];
+    const course_gpa =
       (gradeMapping[item.grade] * parseInt(item.credit)) /
       parseInt(item.credit);
-    gpa += cource_gpa;
+    gpa += course_gpa;
   }
 
-  return gpa / cources.length;
+  return gpa / courses.length;
 };

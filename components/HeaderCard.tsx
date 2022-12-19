@@ -16,10 +16,10 @@ export default function HeaderCard(props: headerCardSchema) {
       </motion.h1>
 
       <SearchBar
-        placeholder="Search and add cources..."
-        addToList={props.handleAddCource}
+        placeholder="Search and add courses..."
+        addToList={props.handleAddCourse}
         addFormData={props.addFormData}
-        handleCourceFieldChange={props.handleCourceFieldChange}
+        handleCourseFieldChange={props.handleCourseFieldChange}
       />
       <p className="text-sm p-2 text-gray-300 ">
         Select your grade first then search course
@@ -29,8 +29,8 @@ export default function HeaderCard(props: headerCardSchema) {
 
       <TextField
         item={props.addFormData}
-        handleCourceFieldChange={props.handleCourceFieldChange}
-        handleAddCource={props.handleAddCource}
+        handleCourseFieldChange={props.handleCourseFieldChange}
+        handleAddCourse={props.handleAddCourse}
         handleChangeView={props.handleChangeView}
         viewGPA={props.hide}
       />

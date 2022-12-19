@@ -33,7 +33,7 @@ export default function Card(props: listViewSchema) {
         </div>
         <div className="w-[450px] h-[400px]  border-black z-0 bg-white overflow-auto rounded-b-lg shadow-md  dark:bg-color_pink-900 bg-opacity-90 dark:border-black-900">
           <div className="mt-4 p-4">
-            {props.cources.map(function (course, i) {
+            {props.courses.map(function (course, i) {
               return (
                 <List
                   key={course.id}

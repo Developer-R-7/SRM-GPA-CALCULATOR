@@ -2,13 +2,13 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { heroSectionSchema, listSchema } from "../shared/models/schema";
 import Card from "./Card";
-import { calculateGPA, getCourceItem, notify } from "../shared/helpers/helper";
+import { calculateGPA, getCourseItem, notify } from "../shared/helpers/helper";
 import HeaderCard from "./HeaderCard";
 import ResultCard from "./ResultCard";
 import Toast from "./Toast";
 
 export default function HeroSection(props: heroSectionSchema) {
-  const [cources, setCources] = useState(Array<listSchema>);
+  const [courses, setCourses] = useState(Array<listSchema>);
 
   const [addFormData, setFormData] = useState({
     title: "",
@@ -18,7 +18,7 @@ export default function HeroSection(props: heroSectionSchema) {
 
   const [GPA, setGPA] = useState(0.0);
 
-  const handleCourceFieldChange = (event: any) => {
+  const handleCourseFieldChange = (event: any) => {
     const fieldName = event.target.getAttribute("name");
     const fieldValue = event.target.value;
 
@@ -27,40 +27,41 @@ export default function HeroSection(props: heroSectionSchema) {
     setFormData(newFormData);
   };
 
-  const handleAddCource = (event: any, data?: any) => {
+  const handleAddCourse = (event: any, data?: any) => {
     event.preventDefault();
 
-    const get_cource = getCourceItem(data, addFormData);
+    const get_course = getCourseItem(data, addFormData);
 
     // In Future check for duplicate item in list
 
     if (
-      get_cource.title !== "" &&
-      get_cource.credit !== "" &&
-      get_cource.grade !== ""
+      get_course.title !== "" &&
+      get_course.credit !== "" &&
+      get_course.grade !== ""
     ) {
-      const new_cource: any = [...cources, get_cource];
+      const new_course: any = [...courses, get_course];
       setFormData({
         title: "",
         credit: "",
         grade: "",
       });
-      setCources(new_cource);
-      setGPA(calculateGPA(new_cource));
+      setCourses(new_course);
+      notify("Course added", "success");
+      setGPA(calculateGPA(new_course));
     } else {
-      notify("Missing Value", "error");
+      notify("Please fill all fields", "error");
     }
   };
 
-  const handleDeleteCource = (event: any) => {
+  const handleDeleteCourse = (event: any) => {
     event.preventDefault();
     const get_id = event.target.getAttribute("id");
     // delete only first listItem
-    const updated_cources = cources.filter((object) => {
+    const updated_courses = courses.filter((object) => {
       return object.title !== get_id;
     });
-    setCources(updated_cources);
-    setGPA(calculateGPA(updated_cources));
+    setCourses(updated_courses);
+    setGPA(calculateGPA(updated_courses));
   };
 
   const [viewGPA, setViewGPA] = useState(false);
@@ -76,8 +77,15 @@ export default function HeroSection(props: heroSectionSchema) {
           {viewGPA ? (
             <>
               <Card
-                cources={cources}
-                onDelete={handleDeleteCource}
+                courses={
+                  // !localStorage.getItem("all_courses")
+                  //   ? courses
+                  //   : (JSON.parse(
+                  //       localStorage.getItem("all_courses")!
+                  //     ) as Array<listSchema>)
+                  courses
+                }
+                onDelete={handleDeleteCourse}
                 viewGPA={viewGPA}
               />
 
@@ -85,9 +93,9 @@ export default function HeroSection(props: heroSectionSchema) {
                 gpa={GPA}
                 viewGPA={viewGPA}
                 addFormData={addFormData}
-                handleAddCource={handleAddCource}
+                handleAddCourse={handleAddCourse}
                 handleChangeView={handleChangeView}
-                handleCourceFieldChange={handleCourceFieldChange}
+                handleCourseFieldChange={handleCourseFieldChange}
               />
             </>
           ) : (
@@ -100,15 +108,22 @@ export default function HeroSection(props: heroSectionSchema) {
                 <HeaderCard
                   hide={viewGPA}
                   title={props.title}
-                  handleAddCource={handleAddCource}
+                  handleAddCourse={handleAddCourse}
                   addFormData={addFormData}
-                  handleCourceFieldChange={handleCourceFieldChange}
+                  handleCourseFieldChange={handleCourseFieldChange}
                   handleChangeView={handleChangeView}
                 />
               </motion.div>
               <Card
-                cources={cources}
-                onDelete={handleDeleteCource}
+                courses={
+                  // !localStorage.getItem("all_courses")
+                  //   ? courses
+                  //   : (JSON.parse(
+                  //       localStorage.getItem("all_courses")!
+                  //     ) as Array<listSchema>)
+                  courses
+                }
+                onDelete={handleDeleteCourse}
                 viewGPA={viewGPA}
               />
             </>
