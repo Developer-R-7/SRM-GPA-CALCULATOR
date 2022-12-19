@@ -93,7 +93,7 @@ export default function TextField(props: courceListItem) {
             }}
             className="text-white my-4 bg-[#FF7000] font-medium rounded text-lg px-5 py-2.5 text-center mr-2 mb-2"
           >
-            Add Cource
+            Add cource
           </button>
           <button
             type="button"

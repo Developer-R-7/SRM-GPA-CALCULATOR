@@ -21,6 +21,9 @@ export default function HeaderCard(props: headerCardSchema) {
         addFormData={props.addFormData}
         handleCourceFieldChange={props.handleCourceFieldChange}
       />
+      <p className="text-sm p-2 text-gray-300 ">
+        Select your grade first then search cource
+      </p>
 
       <p className="text-2xl m-6 text-center text-white text-bold">OR</p>
 

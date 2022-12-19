@@ -8,7 +8,7 @@ export default function Card(props: listViewSchema) {
       initial={{ opacity: 0, scale: 0.9 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.7 }}
-      className="flex mx-auto flex-row justify-center w-full my-8"
+      className="flex mx-auto flex-row justify-center w-full my-8 order-2 md:order-1"
     >
       <div className="relative rounded-t-lg">
         <div className="w-full ">
