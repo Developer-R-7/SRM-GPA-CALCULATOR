@@ -13,7 +13,7 @@ export default function TextField(props: courseListItem) {
               course name
             </label>
             <input
-              className="appearance-none block w-full bg-gray-900 text-white border border-gray-600 rounded py-3 px-4 leading-tight focus:outline-none  focus:border-gray-500"
+              className="appearance-none block w-full h-[54px] bg-gray-900 text-white border border-gray-600 rounded py-3 px-4 leading-tight focus:outline-none  focus:border-gray-500"
               id="grid-city"
               type="text"
               name="title"
@@ -32,7 +32,7 @@ export default function TextField(props: courseListItem) {
               Credit
             </label>
             <input
-              className="block w-full bg-gray-900 text-white border border-gray-600 rounded py-3 px-4 leading-tight focus:outline-none  focus:border-gray-500"
+              className="block w-full h-[54px] bg-gray-900 text-white border border-gray-600 rounded py-3 px-4 leading-tight focus:outline-none  focus:border-gray-500"
               id="grid-zip"
               type="number"
               name="credit"
@@ -53,7 +53,7 @@ export default function TextField(props: courseListItem) {
             </label>
             <div className="relative">
               <select
-                className="appearance-none block w-full bg-gray-900 text-white text-sm  border border-gray-600 rounded py-3 px-4 leading-tight focus:outline-none  focus:border-gray-500"
+                className="appearance-none block w-full h-[54px] bg-gray-900 text-white text-sm  border border-gray-600 rounded py-3 px-4 leading-tight focus:outline-none  focus:border-gray-500"
                 id="grid-state"
                 name="grade"
                 value={props.item.grade}

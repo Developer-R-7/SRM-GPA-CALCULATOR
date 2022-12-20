@@ -104,6 +104,7 @@ export default function HeroSection(props: heroSectionSchema) {
                 initial={{ y: 25, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.7 }}
+                className="mx-auto"
               >
                 <HeaderCard
                   hide={viewGPA}
